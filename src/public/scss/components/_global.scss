@@ -1,0 +1,142 @@
+// ! Global size
+body {
+    font-size: 14px;
+}
+
+@media (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+// *General settings
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.125em;
+}
+
+// Animate css
+.animate__animated.animate__slideOutLeft,
+.animate__animated.animate__slideInLeft {
+    --animate-duration: 0.25s;
+}
+
+// Delete default props
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+// Icons
+i {
+    font-size: 1em;
+}
+
+// Input type number
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    appearance: textfield;
+}
+
+// TODO: Custom classes
+.hidden {
+    display: none;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+// * Buttons
+.button {
+    height: 3.125em;
+    padding: 0 2.375em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    transition: all 0.25s;
+    cursor: pointer;
+
+    a {
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+// Fill button
+.button.button--fill {
+    background: #189d8a;
+}
+.button.button--fill:hover {
+    background: #0c6d5e;
+}
+
+//  Empty button
+.button.button--line {
+    background: none;
+    border: 3px solid #fff;
+}
+.button.button--line:hover {
+    background: #fff;
+
+    a {
+        color: #189d8a;
+    }
+}
+
+//  Empty button -- Blue
+.button--line.blue {
+    a {
+        color: #2d74ff;
+    }
+    border: 3px solid #2d74ff;
+}
+.button--line.blue:hover {
+    a {
+        color: #fff;
+    }
+    background: #2d74ff;
+}
+
+//  Empty button -- Green
+.button--line.green {
+    a {
+        color: #0ad01e;
+    }
+    margin-left: 10px;
+    border: 3px solid #0ad01e;
+}
+.button--line.green:hover {
+    a {
+        color: #fff;
+    }
+    background: #0ad01e;
+}
+
+// *Align tags
+.align--right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,102 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 66px;
+    margin-bottom: 100px;
+    padding: 1.5em;
+
+    h3 {
+        font-size: 2.7819em;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .about__container {
+        width: 100%;
+        max-width: 1000px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .about__image {
+            width: 100%;
+            max-width: 618px;
+            margin-bottom: 25px;
+
+            img {
+                width: 100%;
+                box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.25);
+            }
+
+            h4 {
+                font-size: 1.9327em;
+                font-weight: 700;
+                margin-bottom: 5px;
+                color: #000000;
+            }
+
+            p {
+                font-size: 1.125em;
+                font-weight: 700;
+                margin-bottom: 25px;
+                color: #494949;
+            }
+        }
+
+        .about__footer {
+            width: 100%;
+            max-width: 664px;
+
+            h4 {
+                font-size: 30.92px;
+                font-weight: 700;
+                text-align: right;
+                margin-bottom: 10px;
+            }
+
+            .about__footer--text {
+                margin-bottom: 15px;
+                padding: 15px;
+
+                background: rgba(62, 62, 62, 0.75);
+                backdrop-filter: blur(4px);
+                border-radius: 5px;
+
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    color: #fff;
+                }
+
+                h5 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-align: right;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// TODO. About -- PC
+@media (min-width: 1100px) {
+    // * Add about footer -- PC
+    .about {
+        .about__container {
+            position: relative;
+            align-items: flex-start;
+        }
+
+        .about__footer {
+            position: absolute;
+            right: 0;
+            bottom: 40px;
+        }
+    }
+}

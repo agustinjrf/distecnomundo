@@ -1,0 +1,36 @@
+<nav>
+    <a class='nav__icon' href='/'>
+        <img src='\images\icon.png' alt='' />
+        <h1>Distecno<span>mundo</span></h1>
+    </a>
+
+    <div class='nav__links'>
+        <ul class='hidden'>
+            <li><a href='/'>Inicio</a></li>
+            <li><a href='/catalog'>Productos</a></li>
+            <li><a href='/'>Contacto</a></li>
+            <li class='basket'>
+                <a href='/cart'><i class='bi bi-basket3-fill'></i>
+                    <div id='updatePrice'></div></a>
+            </li>
+        </ul>
+
+        <button onclick='toggleMenu()'>
+            <i class='bi bi-list'></i>
+        </button>
+    </div>
+</nav>
+
+<div id='menu' class='hidden animate__animated animate__slideOutLeft'>
+    <button onclick='toggleMenu()'>
+        <i class='bi bi-list'></i>
+    </button>
+
+    <ul>
+        <li><a href='/'>Inicio</a></li>
+        <li><a href='/catalog'>Productos</a></li>
+        <li><a href='/cart'>Carrito</a></li>
+        <li><a href='#'>Contacto</a></li>
+    </ul>
+
+</div>

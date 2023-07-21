@@ -1,0 +1,24 @@
+// Fonts
+// @font-face {
+// 	font-family: 'Poppins';
+// 	src: url('/fonts/Poppins-Regular.ttf') format('ttf'),
+// 		url('/fonts/Poppins-SemiBold.ttf') format('ttf'),
+// 		url('/fonts/Poppins-Bold.ttf') format('ttf'),
+// 		url('/fonts/Poppins-Medium.ttf') format('ttf');
+// }
+
+// Imports
+@import './components/catalog';
+@import './components/nav';
+@import './components/header';
+@import './components/products';
+@import './components/about';
+@import './components/instagram';
+@import './components/footer';
+@import './components/alerts';
+@import './components/product';
+@import './components/menu';
+@import './components/global';
+@import './components/cart';
+@import './components/footer-pagos';
+@import './components/checkout';

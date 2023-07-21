@@ -1,0 +1,127 @@
+{{> nav }}
+
+<div class="checkout-container">
+    <p class="checkout-note">NOTA. Recuerda qué esto solo es una solicitud de pedido, una vez confirmada la disponibilidad de los productos, nos comunicaremos con usted para concretar el pago y el envío.</p>
+
+    <h2>Rellena tu hoja de pedido</h2>
+    <form action="">
+        <div class="user-info">
+            <div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Nombres*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Apellidos*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">CI / RIF*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">WhatsApp / Teléfono*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Correo*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Estado*</label>
+</div>
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Ciudad*</label>
+</div>
+<p class="note2">Contamos con delivery y envios nacionales con 
+pago a destino.</p>
+        </div>
+        <div class="order-info">
+            <div class="pay-info">
+                <h3 class="info__title">Métodos de pago</h3>
+                <p class="info__subtitle">Selecciona un método de pago</p>
+                <label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Deposito en BNC o Banco de Venezuela</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Dólares en efectivo</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Bolívares</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Banesco Panamá</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Paypal</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Reserve</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Zelle</label>
+<label class="cyberpunk-checkbox-label">
+<input class="cyberpunk-checkbox" type="checkbox">
+Binance</label>
+            </div>
+            <div class="send-info">
+                <h3 class="info__title">Datos de envío</h3>
+                <p class="info__subtitle">Selecciona un método de envío</p>
+                <label class="cyberpunk-checkbox-label">
+<input id="local" checked class="cyberpunk-checkbox" type="checkbox">
+Retiro en el local</label>
+<label class="cyberpunk-checkbox-label">
+<input id="delivery" class="cyberpunk-checkbox" type="checkbox">
+Delivery en Puerto la cruz, Barcelona o Lechería: 10$</label>
+<label class="cyberpunk-checkbox-label">
+<input id="mrw" class="cyberpunk-checkbox" type="checkbox">
+Envío con cobro a destino por MRW</label>
+
+<div class="send-data">
+    <div id="localform" class="">
+        <h4>CC Caribbean Mall - Nivel C1, local 160</h4>
+        <h5>Lechería, Anzoátegui</h5>
+         <div class="button button--line blue"><a href="https://goo.gl/maps/hpSaBKGg63Myx86y6" target="_blank">Maps <i class="bi bi-geo-alt"></i></a></div>
+        <p>Nota. Disponible de lunes a sábado de 9:30am a 5:30pm</p>
+    </div>
+    <div id="deliveryform" class="hidden">
+        <div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Dirección*</label>
+</div>
+
+    </div>
+    <div id="mrwform" class="hidden">
+                <div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Oficina de MRW</label>
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+
+        <div class="products-summary">
+            <h4>Tu pedido</h4>
+            {{#each cart}}
+                <div class="products-summary__item">
+                    <h6 class="products-summary__title">{{product.title}}</h6>
+                    <p class="products-summary__price">precio. {{product.price}} x {{quantity}}</p>
+                </div>
+            {{/each}}
+            <div class="total">
+                <p>Total</p>
+                <h5>${{price}}</h5>
+                
+            </div>
+                 <button type="submit" class="button button--line blue">Confirmar pedido</button>
+
+        </div>
+    </form>
+</div>
+
+{{> footer-pagos }}
+{{> footer }}

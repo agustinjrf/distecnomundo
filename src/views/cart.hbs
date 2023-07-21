@@ -1,0 +1,47 @@
+{{> nav }}
+
+<section class="cart__checkout">
+    <h2>Tu Carrito</h2>
+    <h3 class="cart__total">Sub-Total</h3>
+        {{#if price}}
+        <p class="cart__price">{{price}}.00$</p>
+        {{else}}
+        <p class="cart__price">$00.00</p>
+        {{/if}}
+    <p class="cart__tag">Contamos con delivery y envios nacionales con pago a destino.</p>
+
+<div class="cart__buttons">
+    <button class="btn btn-back"><a href="/catalog">Volver</a></button>
+    <button class="btn btn-next"><a href="/checkout">Pedir</a></button>
+</div>
+</section>
+
+<div class="cart__products--container">
+    <section class="cart__products">
+        {{#if cart}}
+            {{#each cart}}
+                <div class="cart__product">
+                    <img src="{{product.front}}" alt="">
+
+                    <div class="cart__product--info">
+                        <p class="cart__product--name"><span>{{product.title}}</span></p>
+                        <p class="cart__product--quantity"><span>Cantidad.</span> {{quantity}}</p>
+                        <p class="cart__product--price"><span>{{product.price}}.00$</span></p>
+                        <form action="/delete-product/{{id}}?_method=DELETE" method="POST">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <button class="cart__btn--delete"><span>Eliminar</span> <i class="bi bi-trash-fill"></i></button>
+                        </form>
+                    </div>
+                </div>
+            {{/each}}
+        {{else}}
+            <div class="cart__product--else">
+                <i class="bi bi-plus-square"></i>
+                <p>No hay productos</p>
+            </div>
+        {{/if}}
+    </section>
+</div>
+
+{{> footer-pagos }}
+{{> footer }}

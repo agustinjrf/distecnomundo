@@ -1,0 +1,82 @@
+{{> nav }}
+
+<header>
+    <article>
+        <h2>Aprovecha nuestras ofertas</h2>
+        <h3>Productos que facilitan tu vida</h3>
+        <p>Ofertas especiales todas las semanas para todas las compras hechas en nuestras tiendas. Contamos con las mejores marcas para todos nuestros productos.</p>
+        <div>
+            <div class="button button--fill">
+                <a href="/">Ver más</a>
+            </div>
+            <div class="button button--line">
+                <a href="/">Contacto</a>
+            </div>
+        </div>
+    </article>
+</header>
+
+<article class="main__products">
+    <section class="main__products--header">
+        <h2>Más vendidos del mes</h2>
+        <h3>Productos favoritos para nuestros clientes</h3>
+    </section>
+
+    <section class="products">
+        {{#each mainProducts}}
+        {{> products }}
+        {{/each}}
+
+        <section class="align--right">
+            <div class="button button--fill">
+                <a href="/">Más productos</a>
+            </div>
+        </section>
+    </section>
+
+    
+
+</article>
+
+{{!-- <article class="about">
+    <h3>Visita nuestra tienda</h3>
+    <section class="about__container">
+        
+    <div class="about__image"  data-aos="fade-right">
+        <h4>CC Caribbean Mall</h4>
+        <p>Nivel C1, local 160</p>
+
+        <img src="./images/about.png" alt="">
+    </div>
+
+    <div class="about__footer"  data-aos="fade-left">
+        <h4>Lechería, Anzoátegui</h4>
+        <div class="about__footer--text">
+            <p>Somos una tienda de electrodomésticos con sede en lechería y despacho en Caracas, nuestro catálogo cuenta con los mejores productos de línea blanca para tu hogar.</p>
+            <h5>Contamos con delivery y envíos nacionales</h5>
+        </div>
+
+        <div class="align--right">
+            <div class="button button--line blue"><a href="/">Maps <i class="bi bi-geo-alt"></i></a></div>
+            <div class="button button--line green"><a href="/">WhatsApp <i class="bi bi-whatsapp"></i></a></div>
+        </div>
+          
+    </div>
+    </section>
+</article> --}}
+
+{{> instagram }}
+
+<article class="marcas">
+
+    <div class="marcas__container">
+        <div class="marcas__img"><img src="./images/marca-oster.png" alt=""></div>
+        <div class="marcas__img"><img src="./images/marca-omega.png" alt=""></div>
+        <div class="marcas__img"><img src="./images/marca-aranci.png" alt=""></div>
+        <div class="marcas__img"><img src="./images/marca-singer.png" alt=""></div>
+    </div>
+
+</article>
+
+{{> footer }}
+

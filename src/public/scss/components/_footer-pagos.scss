@@ -1,0 +1,39 @@
+.footer-pagos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+    article {
+        max-width: 950px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            margin-bottom: 39px;
+        }
+
+        .reserve {
+            width: 232.305px;
+        }
+
+        .banesco {
+            width: 283.2px;
+        }
+
+        .zelle {
+            width: 139.05px;
+        }
+
+        .paypal {
+            width: 244.23px;
+        }
+
+        .binance {
+            width: 313.38px;
+        }
+    }
+}

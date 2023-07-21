@@ -1,0 +1,21 @@
+<article class='instagram'>
+
+    <h4>Síguenos en nuestras redes sociales</h4>
+    <p>Últimas publicaciones</p>
+    <section class='post' data-aos='fade-up'>
+        {{#each igPost}}
+
+            <a href='{{url}}'>
+                <img src='{{img}}' alt='' />
+            </a>
+
+        {{/each}}
+    </section>
+
+    <section class='align--right'>
+        <a href='/'><i class='bi bi-twitter'></i></a>
+        <a href='/'><i class='bi bi-instagram'></i></a>
+        <a href='/'><i class='bi bi-facebook'></i></a>
+    </section>
+
+</article>

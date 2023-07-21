@@ -1,0 +1,35 @@
+const router = require('express').Router();
+
+const {
+    renderIndex,
+    renderCatalog,
+    renderProduct,
+    renderCart,
+    addProduct,
+    deleteProduct,
+    renderCheckout,
+} = require('../handlers/handlers');
+const { createCart } = require('../helpers/helpers');
+
+// Pagina principal
+router.get('/', renderIndex);
+
+// Catalogo
+router.get('/catalog', renderCatalog);
+
+// Producto individual
+router.get('/catalog/:id', renderProduct);
+
+// Carrito
+router.get('/cart', createCart, renderCart);
+
+// Checkout
+router.get('/checkout', createCart, renderCheckout);
+
+// Añadir producto al carrito
+router.post('/add-product', createCart, addProduct);
+
+// Eliminar producto al carrito
+router.delete('/delete-product/:id', createCart, deleteProduct);
+
+module.exports = router;

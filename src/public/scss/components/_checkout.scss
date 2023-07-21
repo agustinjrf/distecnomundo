@@ -1,0 +1,267 @@
+.checkout-container {
+    padding: 2rem;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+
+    .checkout-note {
+        margin-bottom: 75;
+        padding-top: 155px;
+        width: 100%;
+        max-width: 777px;
+        color: #1b1b1b;
+        text-align: center;
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    h2 {
+        color: #1b1b1b;
+        font-family: Nunito Sans;
+        font-size: 30.92px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 870px;
+
+        .note2 {
+            color: #747474;
+            font-family: Nunito Sans;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 50px;
+            max-width: 376px;
+        }
+
+        .info__title {
+            color: #1b1b1b;
+            font-family: Nunito Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .info__subtitle {
+            color: #ababab;
+            font-family: Nunito Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 20px;
+        }
+
+        .send-data {
+            #localform {
+                h4 {
+                    color: #1b1b1b;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 30px;
+                }
+
+                h5 {
+                    color: #1b1b1b;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-bottom: 10px;
+                }
+
+                .button {
+                    max-width: 160px;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    color: #747474;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+            // #deliveryform {
+            // }
+            // #mrwform {
+            // }
+        }
+
+        .products-summary {
+            margin-top: 100px;
+            h4 {
+                color: #1b1b1b;
+                font-family: Nunito Sans;
+                font-size: 30.92px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .products-summary__item {
+                margin: 25px 0;
+                .products-summary__title {
+                    color: #1b1b1b;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                .products-summary__price {
+                    color: #696969;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+
+            .total {
+                margin-bottom: 25px;
+                p {
+                    color: #696969;
+                    font-family: Nunito Sans;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                h5 {
+                    color: #1b1b1b;
+                    font-family: Nunito Sans;
+                    font-size: 44.51px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+
+// Inputs Style
+
+.inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px 0 20px 0;
+    max-width: 376px;
+    position: relative;
+}
+
+.inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid) ~ label {
+    transform: translateY(-50%) scale(0.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #fff;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 200, 197);
+}
+
+// CheckBox Style
+
+.cyberpunk-button {
+    background-color: #30cfd0;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #30cfd0;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cyberpunk-checkbox:before {
+    content: '';
+    background-color: #30cfd0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.cyberpunk-checkbox-label {
+    font-size: 18px;
+    color: #525252;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    color: #525252;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
