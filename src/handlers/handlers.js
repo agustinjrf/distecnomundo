@@ -4,13 +4,13 @@ const uuid = require('uuid');
 
 const { products, igPost } = require('./db');
 
-let mainProducts = [];
-
-for (let i = 0; i < 6; i++) {
-    mainProducts[i] = products[i];
-}
-
 handlers.renderIndex = (req, res) => {
+    let mainProducts = [];
+
+    for (let i = 1; i < 7; i++) {
+        mainProducts[i] = products[Math.ceil(Math.random() * 100)];
+    }
+
     res.render('index', { mainProducts, igPost });
 };
 
@@ -66,6 +66,12 @@ handlers.renderProduct = (req, res) => {
             item = product;
         }
     });
+
+    let mainProducts = [];
+
+    for (let i = 1; i < 7; i++) {
+        mainProducts[i] = products[Math.ceil(Math.random() * 100)];
+    }
 
     res.render('product', { item, mainProducts });
 };

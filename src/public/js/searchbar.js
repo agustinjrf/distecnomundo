@@ -3,7 +3,7 @@ const searchBar = document.getElementById('searchBar');
 
 searchBar.addEventListener('keyup', () => {
     // Tomar los valores ingresados en el input
-    const searchString = searchBar.value;
+    const searchString = searchBar.value.toLowerCase();
 
     // Obtener una NodeList con los productos
     const listItems = document.querySelectorAll('a.item');

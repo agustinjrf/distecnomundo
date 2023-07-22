@@ -1562,26 +1562,6 @@ db.products = [
         },
     },
     {
-        code: 94,
-        title: 'Plancha Eléctrica Con Bandeja 0ster',
-        front: '/images/planchas/0094-1.png',
-        imgs: ['/images/planchas/0094-2.png'],
-        tags: ['linea blanca', 'planchas'],
-        mercadoLibre:
-            'https://articulo.mercadolibre.com.ve/MLV-720866640-plancha-electrica-con-bandeja-0ster-_JM',
-        price: 88.0,
-        description:
-            'Esta versátil plancha eléctrica cuenta con antiadherente diamond force de oster, una duradera superficie de cocción con partículas de diamante que crea un revestimiento más resistente para facilitar el desprendimiento de los alimentos y un rendimiento antiadherente superior a lo largo del tiempo, se mantiene caliente y es resistente a rayones.',
-        features: {
-            Fabricante: ['Fabricante', 'OSTER'],
-            Modelo: ['Modelo', 'CKSTGR20WT'],
-            Voltaje: ['Voltaje', '110V'],
-            Potencia: ['Potencia', '1500 WATTS.'],
-            Color: ['Color', 'Negro'],
-            Dimensiones: ['Dimensiones', '65cm x 30cm x 6cm'],
-        },
-    },
-    {
         code: 95,
         title: 'Sanduchera Parrilla Oster',
         front: '/images/planchas/0095-1.png',
