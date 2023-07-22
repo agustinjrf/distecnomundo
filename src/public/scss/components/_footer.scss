@@ -82,7 +82,10 @@
     form {
         height: 50px;
         display: flex;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 8px 8px 32px #dbdbdb, -8px -8px 32px #ffffff;
+        overflow: hidden;
 
         input {
             width: 100%;
@@ -96,15 +99,15 @@
         }
 
         button {
-            min-width: 100px;
+            min-width: 120px;
             color: #fff;
-            background-color: #35e2cd;
+            background-color: #1363df;
             transition: 0.25s;
             cursor: pointer;
         }
 
         button:hover {
-            background-color: #1cad9c;
+            background-color: #023c94;
         }
     }
 }

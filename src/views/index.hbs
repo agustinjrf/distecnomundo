@@ -1,5 +1,6 @@
 {{> nav }}
 
+{{!-- Header --}}
 <header>
     <article>
         <h2>Aprovecha nuestras ofertas</h2>
@@ -7,15 +8,16 @@
         <p>Ofertas especiales todas las semanas para todas las compras hechas en nuestras tiendas. Contamos con las mejores marcas para todos nuestros productos.</p>
         <div>
             <div class="button button--fill">
-                <a href="/">Ver más</a>
+                <a href="/catalog">Ver más</a>
             </div>
             <div class="button button--line">
-                <a href="/">Contacto</a>
+                <a href="/#contact">Contacto</a>
             </div>
         </div>
     </article>
 </header>
 
+{{!-- Products --}}
 <article class="main__products">
     <section class="main__products--header">
         <h2>Más vendidos del mes</h2>
@@ -29,19 +31,17 @@
 
         <section class="align--right">
             <div class="button button--fill">
-                <a href="/">Más productos</a>
+                <a href="/catalog">Más productos</a>
             </div>
         </section>
     </section>
-
-    
-
 </article>
 
-{{!-- <article class="about">
+{{!-- About Distecnomundo --}}
+<article class="about"  id="contact">
     <h3>Visita nuestra tienda</h3>
     <section class="about__container">
-        
+    
     <div class="about__image"  data-aos="fade-right">
         <h4>CC Caribbean Mall</h4>
         <p>Nivel C1, local 160</p>
@@ -49,11 +49,11 @@
         <img src="./images/about.png" alt="">
     </div>
 
-    <div class="about__footer"  data-aos="fade-left">
+    <div class="about__footer">
         <h4>Lechería, Anzoátegui</h4>
-        <div class="about__footer--text">
+        <div class="about__footer--text">  
             <p>Somos una tienda de electrodomésticos con sede en lechería y despacho en Caracas, nuestro catálogo cuenta con los mejores productos de línea blanca para tu hogar.</p>
-            <h5>Contamos con delivery y envíos nacionales</h5>
+              <h5>Contamos con delivery y envíos nacionales</h5>
         </div>
 
         <div class="align--right">
@@ -63,7 +63,7 @@
           
     </div>
     </section>
-</article> --}}
+</article> 
 
 {{> instagram }}
 

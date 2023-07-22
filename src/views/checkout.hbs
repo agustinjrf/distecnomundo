@@ -4,7 +4,7 @@
     <p class="checkout-note">NOTA. Recuerda qué esto solo es una solicitud de pedido, una vez confirmada la disponibilidad de los productos, nos comunicaremos con usted para concretar el pago y el envío.</p>
 
     <h2>Rellena tu hoja de pedido</h2>
-    <form action="">
+    <form action="/send-order"  method="POST" >
         <div class="user-info">
             <div class="inputGroup">
     <input type="text" required="" autocomplete="off">
@@ -88,14 +88,14 @@ Envío con cobro a destino por MRW</label>
     </div>
     <div id="deliveryform" class="hidden">
         <div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
+    <input type="text">
     <label for="name">Dirección*</label>
 </div>
 
     </div>
     <div id="mrwform" class="hidden">
                 <div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
+    <input type="text">
     <label for="name">Oficina de MRW</label>
 </div>
 
@@ -117,7 +117,7 @@ Envío con cobro a destino por MRW</label>
                 <h5>${{price}}</h5>
                 
             </div>
-                 <button type="submit" class="button button--line blue">Confirmar pedido</button>
+                 <button type="submit" class="special-button">Confirmar pedido</button>
 
         </div>
     </form>

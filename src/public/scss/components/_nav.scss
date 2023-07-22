@@ -120,6 +120,8 @@ nav {
             .basket {
                 a {
                     display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 i {
@@ -132,6 +134,7 @@ nav {
                     align-items: center;
                     font-size: 1.125em;
                     font-weight: 800;
+                    padding-top: 5px;
                 }
             }
         }

@@ -4,16 +4,16 @@
     <h2>Tu Carrito</h2>
     <h3 class="cart__total">Sub-Total</h3>
         {{#if price}}
-        <p class="cart__price">{{price}}.00$</p>
+            <p class="cart__price">{{price}}.00$</p>
         {{else}}
-        <p class="cart__price">$00.00</p>
+            <p class="cart__price">$00.00</p>
         {{/if}}
     <p class="cart__tag">Contamos con delivery y envios nacionales con pago a destino.</p>
 
-<div class="cart__buttons">
-    <button class="btn btn-back"><a href="/catalog">Volver</a></button>
-    <button class="btn btn-next"><a href="/checkout">Pedir</a></button>
-</div>
+    <div class="cart__buttons">
+        <button class="btn btn-back"><a href="/catalog">Volver</a></button>
+        <button class="btn btn-next"><a href="/checkout">Pedir</a></button>
+    </div>
 </section>
 
 <div class="cart__products--container">

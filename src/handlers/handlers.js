@@ -14,6 +14,12 @@ handlers.renderIndex = (req, res) => {
     res.render('index', { mainProducts, igPost });
 };
 
+handlers.sendOrder = (req, res) => {
+    res.cookie('cart', []);
+    res.cookie('price', 0);
+    res.redirect('/');
+};
+
 handlers.renderCheckout = (req, res) => {
     // Obteniendo el carrito
     let minCart = req.cookies.cart;

@@ -2,20 +2,20 @@ const db = {};
 
 db.igPost = [
     {
-        img: './images/ig-placeholder.png',
-        url: '/',
+        img: './images/ig01.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
     },
     {
-        img: './images/ig-placeholder.png',
-        url: '/',
+        img: './images/ig02.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
     },
     {
-        img: './images/ig-placeholder.png',
-        url: '/',
+        img: './images/ig03.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
     },
     {
-        img: './images/ig-placeholder.png',
-        url: '/',
+        img: './images/ig04.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
     },
 ];
 

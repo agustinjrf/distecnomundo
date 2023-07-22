@@ -113,6 +113,7 @@
             height: 275px;
             border-radius: 5px;
             overflow: hidden;
+            box-shadow: 8px 8px 32px #dbdbdb, -8px -8px 32px #ffffff;
 
             flex-direction: column;
 
@@ -135,9 +136,27 @@
                 position: absolute;
                 bottom: 0;
 
+                .cart__product--name {
+                    color: #fff;
+                    font-family: Nunito Sans;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+
+                .cart__product--quantity {
+                    margin-top: 5px;
+                }
+
+                .cart__product--price {
+                    margin-top: 5px;
+                }
+
                 .cart__btn--delete {
+                    margin-top: 15px;
                     transition: 0.25s;
                     color: #fff;
+                    cursor: pointer;
                 }
 
                 .cart__btn--delete:hover {

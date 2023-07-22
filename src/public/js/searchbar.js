@@ -54,7 +54,7 @@ function category(tag) {
             //console.log('added');
         }
 
-        if (category == 'todos') {
+        if (tag == 'todos') {
             item.classList.remove('hidden');
         }
     }

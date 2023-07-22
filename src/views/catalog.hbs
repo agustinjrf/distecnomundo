@@ -2,31 +2,36 @@
 
 <div class='filter hidden animate__animated animate__slideOutLeft' id='filter'>
     <div class='catalog__filter'>
-        <button onclick='filterToggle()'><i class='bi bi-funnel-fill'></i>
-            Filtrar por categorías</button>
+        <button onclick='filterToggle()'>
+                <i class='bi bi-funnel-fill'></i> 
+                Filtrar por categorías
+        </button>
     </div>
 
     <ul>
-        {{!-- <li><h4>Categorías</h4></li>
-        <li><button onclick='category("Línea Blanca")'>Línea Blanca</button></li>
-        <li><button onclick='category("Línea Marrón")'>Línea Marrón</button></li>
-        <li><button onclick='category("Hogar")'>Hogar</button></li> --}}
         <li><h4>Productos</h4></li>
+        <li><button onclick='category("todos")'>Todos</button></li>
         <li><button onclick='category("aires")'>Aires</button></li>
         <li><button onclick='category("airfryers")'>Airfryers</button></li>
         <li><button onclick='category("batidoras")'>Batidoras</button></li>
         <li><button onclick='category("cafeteras")'>Cafeteras</button></li>
-        <li><button onclick='category("aampanas")'>Campanas</button></li>
-        <li><button onclick='category("congeladores")'>Congeladores</button></li>
+        <li><button onclick='category("campanas")'>Campanas</button></li>
+        <li><button onclick='category("extractores")'>Extractores de Jugo</button></li>
+        <li><button onclick='category("planchas")'>Planchas</button></li>
         <li><button onclick='category("hornos")'>Hornos</button></li>
+        <li><button onclick='category("horno tostador")'>Horno Tostador</button></li>
         <li><button onclick='category("licuadoras")'>Licuadoras</button></li>
-        <li><button onclick='category("smart tv’s")'>Smart tv’s</button></li>
         <li><button onclick='category("topes")'>Topes</button></li>
+        <li><button onclick='category("repuestos")'>Repuestos</button></li>
+        <li><button onclick='category("otros")'>Otros</button></li>
     </ul>
 </div>
 
 <div class="catalog__filter main__filter">
-        <button onclick="filterToggle()"><i class="bi bi-funnel-fill"></i> Filtrar por categorías</button>
+        <button onclick="filterToggle()">
+                <i class="bi bi-funnel-fill"></i> 
+                Filtrar por categorías
+        </button>
 </div>
 
 

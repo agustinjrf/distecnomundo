@@ -8,6 +8,7 @@ const {
     addProduct,
     deleteProduct,
     renderCheckout,
+    sendOrder,
 } = require('../handlers/handlers');
 const { createCart } = require('../helpers/helpers');
 
@@ -25,6 +26,8 @@ router.get('/cart', createCart, renderCart);
 
 // Checkout
 router.get('/checkout', createCart, renderCheckout);
+
+router.post('/send-order', sendOrder);
 
 // Añadir producto al carrito
 router.post('/add-product', createCart, addProduct);

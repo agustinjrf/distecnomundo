@@ -224,6 +224,8 @@ nav .nav__links i {
   }
   .nav__links ul .basket a {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .nav__links ul .basket i {
     margin-right: 12px;
@@ -234,6 +236,7 @@ nav .nav__links i {
     align-items: center;
     font-size: 1.125em;
     font-weight: 800;
+    padding-top: 5px;
   }
 }
 header {
@@ -473,10 +476,15 @@ header article div .button--fill {
   justify-content: center;
 }
 .instagram .post a {
+  width: 250px;
+  height: 250px;
   margin: 0 15px;
   margin-bottom: 50px;
   box-shadow: 0px 6px 14px 2px rgba(0, 0, 0, 0.25);
   transition: 0.25s;
+}
+.instagram .post a img {
+  width: 100%;
 }
 .instagram .post a:hover {
   transform: scale(110%);
@@ -567,7 +575,10 @@ header article div .button--fill {
 .newsletter form {
   height: 50px;
   display: flex;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 8px 8px 32px #dbdbdb, -8px -8px 32px #ffffff;
+  overflow: hidden;
 }
 .newsletter form input {
   width: 100%;
@@ -579,14 +590,14 @@ header article div .button--fill {
   color: #8a8a8a;
 }
 .newsletter form button {
-  min-width: 100px;
+  min-width: 120px;
   color: #fff;
-  background-color: #35e2cd;
+  background-color: #1363df;
   transition: 0.25s;
   cursor: pointer;
 }
 .newsletter form button:hover {
-  background-color: #1cad9c;
+  background-color: #023c94;
 }
 
 footer {
@@ -1000,6 +1011,49 @@ input[type=number] {
   color: #fff;
 }
 
+.special-button {
+  --color: #2d74ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+  cursor: pointer;
+}
+
+.special-button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 300px;
+  height: 160px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.special-button:hover {
+  color: white;
+}
+
+.special-button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+.special-button:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
 .align--right {
   width: 100%;
   display: flex;
@@ -1110,6 +1164,7 @@ input[type=number] {
   height: 275px;
   border-radius: 5px;
   overflow: hidden;
+  box-shadow: 8px 8px 32px #dbdbdb, -8px -8px 32px #ffffff;
   flex-direction: column;
 }
 .cart__products--container .cart__products .cart__product span {
@@ -1129,9 +1184,24 @@ input[type=number] {
   position: absolute;
   bottom: 0;
 }
+.cart__products--container .cart__products .cart__product .cart__product--info .cart__product--name {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+}
+.cart__products--container .cart__products .cart__product .cart__product--info .cart__product--quantity {
+  margin-top: 5px;
+}
+.cart__products--container .cart__products .cart__product .cart__product--info .cart__product--price {
+  margin-top: 5px;
+}
 .cart__products--container .cart__products .cart__product .cart__product--info .cart__btn--delete {
+  margin-top: 15px;
   transition: 0.25s;
   color: #fff;
+  cursor: pointer;
 }
 .cart__products--container .cart__products .cart__product .cart__product--info .cart__btn--delete:hover {
   color: rgb(211, 0, 0);
@@ -1289,6 +1359,10 @@ input[type=number] {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.checkout-container form .products-summary button {
+  margin-left: 0;
+  width: 200px;
 }
 .checkout-container form .products-summary .products-summary__item {
   margin: 25px 0;
