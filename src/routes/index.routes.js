@@ -13,13 +13,13 @@ const {
 const { createCart } = require('../helpers/helpers');
 
 // Pagina principal
-router.get('/', renderIndex);
+router.get('/', createCart, renderIndex);
 
 // Catalogo
-router.get('/catalog', renderCatalog);
+router.get('/catalog', createCart, renderCatalog);
 
 // Producto individual
-router.get('/catalog/:id', renderProduct);
+router.get('/catalog/:id', createCart, renderProduct);
 
 // Carrito
 router.get('/cart', createCart, renderCart);
