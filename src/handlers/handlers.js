@@ -240,4 +240,8 @@ handlers.deleteProduct = (req, res) => {
     res.redirect('/cart');
 };
 
+handlers.renderPrivacyPolitic = (req, res) => {
+    res.render('privacy-politic');
+};
+
 module.exports = handlers;
