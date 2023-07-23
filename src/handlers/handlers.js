@@ -17,6 +17,9 @@ handlers.renderIndex = (req, res) => {
 handlers.sendOrder = (req, res) => {
     res.cookie('cart', []);
     res.cookie('price', 0);
+
+    req.flash('info_msg', 'Su pedido está en revisión');
+
     res.redirect('/');
 };
 
@@ -177,6 +180,8 @@ handlers.addProduct = (req, res) => {
         res.cookie('price', price);
     }
 
+    req.flash('success_msg', 'Producto añadido al carrito');
+
     // render cart
     res.redirect('/catalog');
 };
@@ -242,6 +247,8 @@ handlers.deleteProduct = (req, res) => {
 
         res.cookie('price', price);
     }
+
+    req.flash('success_msg', 'Producto eliminado del carrito');
 
     res.redirect('/cart');
 };

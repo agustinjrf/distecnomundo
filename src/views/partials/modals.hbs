@@ -7,3 +7,32 @@
         <a href='' class='cookies__link'>Aviso de cookies</a>
     </section>
 </article>
+
+<div class='alert'>
+    {{#if success_msg}}
+        <div
+            class='alert__item alert__item--success animate__animated animate__headShake'
+        >
+            <p><i class='bi bi-check-circle-fill'></i> {{success_msg}}</p>
+            <button onclick='closeAlert()'><i class='bi bi-x'></i></button>
+        </div>
+    {{/if}}
+
+    {{#if error_msg}}
+        <div
+            class='alert__item alert__item--danger animate__animated animate__headShake'
+        >
+            <p><i class='bi bi-exclamation-circle-fill'></i> {{error_msg}}</p>
+            <button onclick='closeAlert()'><i class='bi bi-x'></i></button>
+        </div>
+    {{/if}}
+
+    {{#if info_msg}}
+        <div
+            class='alert__item alert__item--info animate__animated animate__headShake'
+        >
+            <p><i class='bi bi-exclamation-circle-fill'></i> {{info_msg}}</p>
+            <button onclick='closeAlert()'><i class='bi bi-x'></i></button>
+        </div>
+    {{/if}}
+</div>

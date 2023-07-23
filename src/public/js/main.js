@@ -120,3 +120,20 @@ mrwInput.addEventListener('click', () => {
         deliveryForm.classList.add('hidden');
     }
 });
+
+// Cerrando ventanas de alerta
+function closeAlert() {
+    const closeAlert = document.querySelector('.alert__item');
+    closeAlert.classList.toggle('close');
+}
+
+function closePushAlert() {
+    const pushAlert = document.querySelector('.alert .push');
+    pushAlert.classList.toggle('close');
+}
+setTimeout(closePushAlert, 6000);
+
+// Listener del boton para cerrar.
+document.querySelector('#btn-close').addEventListener('click', () => {
+    overlay.classList.remove('active');
+});
