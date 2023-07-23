@@ -1,6 +1,24 @@
 // *Inicializar biblioteca de animaciones
 AOS.init();
 
+// Cookies
+
+if (localStorage.getItem('cookies') == 'true') {
+    document.getElementById('cookies').classList.add('cookies-hidden');
+    console.log('true');
+} else {
+    // Poner baner de cookies
+    console.log('false');
+    document.getElementById('cookies').classList.remove('cookies-hidden');
+}
+
+function cookiesAlert() {
+    // Quitar baner de cookies
+    document.getElementById('cookies').classList.add('cookies-hidden');
+    localStorage.setItem('cookies', 'true');
+    console.log(localStorage.getItem('cookies') == 'true');
+}
+
 // *Abrir/Cerrar el menús desplegables
 function toggleMenu() {
     const menu = document.querySelector('#menu');
