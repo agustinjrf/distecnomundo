@@ -168,6 +168,25 @@ nav .nav__links i {
   backdrop-filter: blur(4px);
   z-index: 2;
 }
+#menu .basket {
+  margin-top: 100px;
+}
+#menu .basket a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu .basket i {
+  margin-right: 12px;
+  font-size: 2em;
+}
+#menu .basket div {
+  display: flex;
+  align-items: center;
+  font-size: 1.125em;
+  font-weight: 800;
+  padding-top: 5px;
+}
 #menu ul {
   margin-top: 100px;
   width: 100%;

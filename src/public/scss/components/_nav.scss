@@ -51,6 +51,28 @@ nav {
     backdrop-filter: blur(4px);
     z-index: 2;
 
+    .basket {
+        margin-top: 100px;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        i {
+            margin-right: 12px;
+            font-size: 2em;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            font-size: 1.125em;
+            font-weight: 800;
+            padding-top: 5px;
+        }
+    }
+
     ul {
         margin-top: 100px;
         width: 100%;

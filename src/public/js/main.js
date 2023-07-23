@@ -76,6 +76,7 @@ function readCookie(name) {
 let updatePrice = readCookie('price');
 
 document.getElementById('updatePrice').innerHTML = `$${updatePrice}`;
+document.getElementById('updatePrice2').innerHTML = `$${updatePrice}`;
 
 // Metodo de envio
 
