@@ -3,18 +3,17 @@ const helpers = {};
 const { products } = require('../handlers/db');
 
 helpers.validateForm = (req, res, next) => {
-    // Validation
+    // *VALIDANDO DATOS DEL FORMULARIO
 };
 
 helpers.validateProduct = (req, res, next) => {
-    // Validation
-
     let thereisnot = true;
 
+    // *VALIDANDO LA EXISTENCIA DEL PRODUCTO
     products.forEach((product) => {
         if (product.code == req.params.id) {
-            next();
             thereisnot = false;
+            next();
         }
     });
 
@@ -24,7 +23,7 @@ helpers.validateProduct = (req, res, next) => {
 };
 
 helpers.validateCart = (req, res, next) => {
-    // Validation of cart
+    // *VALIDANDO CARRITO
     if (req.cookies.cart[0] == undefined) {
         res.redirect('/catalog');
     } else {
@@ -32,15 +31,14 @@ helpers.validateCart = (req, res, next) => {
     }
 };
 
-// Crear una cookie para el carrito
-helpers.createCart = (req, res, next) => {
-    if (req.cookies.cart) {
-    } else {
+helpers.createCookies = (req, res, next) => {
+    // *CREANDO COOKIE DEL CARRITO
+    if (!req.cookies.cart) {
         res.cookie('cart', []);
     }
 
-    if (req.cookies.price) {
-    } else {
+    // *CREANDO COOKIE DEL PRECIO
+    if (!req.cookies.price) {
         res.cookie('price', 0);
     }
 
