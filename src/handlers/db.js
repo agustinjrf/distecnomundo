@@ -22,6 +22,7 @@ db.igPost = [
 db.products = [
     {
         code: 3,
+        active: true,
         title: 'Aire de ventana - 12000 BTU Omega',
         front: '/images/aires/0003-1.png',
         imgs: ['/images/aires/0003-2.png', '/images/aires/0003-3.png'],
@@ -43,6 +44,7 @@ db.products = [
     },
     {
         code: 4,
+        active: true,
         title: 'Aire Acondicionado Split - 12000 BTU Omega',
         front: '/images/aires/0004-1.png',
         imgs: ['/images/aires/0004-2.png', '/images/aires/0004-3.png'],
@@ -64,6 +66,7 @@ db.products = [
     },
     {
         code: 5,
+        active: true,
         title: 'Aire Acondicionado Split - 18000 BTU Decorativo Tipo Espejo',
         front: '/images/aires/0005-1.png',
         imgs: [],
@@ -85,6 +88,7 @@ db.products = [
     },
     {
         code: 6,
+        active: true,
         title: 'Aire Acondicionado Split - 12000 BTU FRIGILUX',
         front: '/images/aires/0006-1.png',
         imgs: [],
@@ -107,6 +111,7 @@ db.products = [
     },
     {
         code: 8,
+        active: true,
         title: 'Horno de Empotrar Eléctrico - DRIJA',
         front: '/images/hornos/0008-1.png',
         imgs: ['/images/hornos/0008-2.png', '/images/hornos/0008-3.png'],
@@ -130,6 +135,7 @@ db.products = [
     },
     {
         code: 9,
+        active: true,
         title: 'Horno de Empotrar Eléctrico 6 funciones - ARANCI',
         front: '/images/hornos/0009-1.png',
         imgs: [],
@@ -160,6 +166,7 @@ db.products = [
     },
     {
         code: 10,
+        active: true,
         title: 'Horno de Empotrar Eléctrico 9 funciones con rostizador - ARANCI',
         front: '/images/hornos/0010-1.png',
         imgs: [],
@@ -190,6 +197,7 @@ db.products = [
     },
     {
         code: 12,
+        active: true,
         title: 'Horno con freidora de aire Oster - 42 litros de puertas estilo francés',
         front: '/images/horno tostador/0012-1.png',
         imgs: [
@@ -214,6 +222,7 @@ db.products = [
     },
     {
         code: 13,
+        active: true,
         title: 'Horno tostador Oster - 10 litros',
         front: '/images/horno tostador/0013-1.png',
         imgs: [
@@ -236,6 +245,7 @@ db.products = [
     },
     {
         code: 14,
+        active: true,
         title: 'Horno eléctrico con convección y rostizador - 30 litros',
         front: '/images/horno tostador/0014-1.png',
         imgs: [],
@@ -255,6 +265,7 @@ db.products = [
     },
     {
         code: 16,
+        active: true,
         title: 'Freidora de aire Oster - 3.2 litros ',
         front: '/images/airfryers/0016-1.png',
         imgs: ['/images/airfryers/0016-2.png'],
@@ -275,6 +286,7 @@ db.products = [
     },
     {
         code: 17,
+        active: true,
         title: 'Freidora de aire manual Oster - 4 litros',
         front: '/images/airfryers/0017-1.png',
         imgs: [
@@ -298,6 +310,7 @@ db.products = [
     },
     {
         code: 18,
+        active: true,
         title: 'Freidora De Aire - 4 Litros Oster Digital',
         front: '/images/airfryers/0018-1.png',
         imgs: [
@@ -322,6 +335,7 @@ db.products = [
     },
     {
         code: 19,
+        active: true,
         title: 'Freidora De Aire - 5,5 Lts Analógica Gtronic',
         front: '/images/airfryers/0019-1.png',
         imgs: [
@@ -347,6 +361,7 @@ db.products = [
     },
     {
         code: 20,
+        active: true,
         title: 'Freidora De Aire - 6,8 Lts Oster',
         front: '/images/airfryers/0020-1.png',
         imgs: [
@@ -372,6 +387,7 @@ db.products = [
     },
     {
         code: 21,
+        active: true,
         title: 'Freidora De Aire - 9 Lts Oster',
         front: '/images/airfryers/0021-1.png',
         imgs: [
@@ -397,6 +413,7 @@ db.products = [
     },
     {
         code: 23,
+        active: true,
         title: 'Licuadora Oster 2 Velocidades Vaso De Vidrio Color Kiwi',
         front: '/images/licuadoras/0023-1.png',
         imgs: ['/images/licuadoras/0023-2.png'],
@@ -418,6 +435,7 @@ db.products = [
     },
     {
         code: 24,
+        active: true,
         title: 'Licuadora Clásica Blanca Oster Vaso Plástico',
         front: '/images/licuadoras/0024-1.png',
         imgs: [
@@ -441,6 +459,7 @@ db.products = [
     },
     {
         code: 25,
+        active: true,
         title: 'Licuadora Oster 2 Velocidades Vaso De Vidrio Blanca',
         front: '/images/licuadoras/0025-1.png',
         imgs: ['/images/licuadoras/0025-2.png'],
@@ -461,6 +480,7 @@ db.products = [
     },
     {
         code: 26,
+        active: true,
         title: 'Licuadora Oster 2 Velocidades Jarra De Vidrio',
         front: '/images/licuadoras/0026-1.png',
         imgs: [
@@ -485,6 +505,7 @@ db.products = [
     },
     {
         code: 27,
+        active: true,
         title: 'Licuadora Clasica Negra Oster Vaso Plastico',
         front: '/images/licuadoras/0027-1.png',
         imgs: ['/images/licuadoras/0027-2.png'],
@@ -505,6 +526,7 @@ db.products = [
     },
     {
         code: 28,
+        active: true,
         title: 'Licuadora Oster 2 Velocidades Vaso De Vidrio Roja',
         front: '/images/licuadoras/0028-1.png',
         imgs: ['/images/licuadoras/0028-2.png'],
@@ -525,6 +547,7 @@ db.products = [
     },
     {
         code: 29,
+        active: true,
         title: 'Licuadora 6 velocidades negro reversible Oster',
         front: '/images/licuadoras/0029-1.png',
         imgs: ['/images/licuadoras/0029-2.png'],
@@ -545,6 +568,7 @@ db.products = [
     },
     {
         code: 30,
+        active: true,
         title: 'Licuadora Oster 3 Velocidades Cromada Vaso Plástico.',
         front: '/images/licuadoras/0030-1.png',
         imgs: [
@@ -568,6 +592,7 @@ db.products = [
     },
     {
         code: 31,
+        active: true,
         title: 'Licuadora De 8 Velocidades Vaso De Vidrio Omega',
         front: '/images/licuadoras/0031-1.png',
         imgs: [],
@@ -588,6 +613,7 @@ db.products = [
     },
     {
         code: 33,
+        active: true,
         title: 'Vaporizador De Tela Portatil Oster',
         front: '/images/otros/0033-1.png',
         imgs: [
@@ -610,6 +636,7 @@ db.products = [
     },
     {
         code: 35,
+        active: true,
         title: 'Tope De Cocina Eléctrico De 30 Cm Vitroceramico Gtronic',
         front: '/images/topes/0035-1.png',
         imgs: ['/images/topes/0035-2.png'],
@@ -630,6 +657,7 @@ db.products = [
     },
     {
         code: 36,
+        active: true,
         title: 'Tope Electrico De 60cm Vitroceramica Gtronic',
         front: '/images/topes/0036-1.png',
         imgs: ['/images/topes/0036-2.png'],
@@ -650,6 +678,7 @@ db.products = [
     },
     {
         code: 37,
+        active: true,
         title: 'Tope De Cocina De Induccion De 77cm Frigilux',
         front: '/images/topes/0037-1.png',
         imgs: ['/images/topes/0037-2.png'],
@@ -669,6 +698,7 @@ db.products = [
     },
     {
         code: 38,
+        active: true,
         title: 'Tope De Cocina De Induccion De 90 cm Frigilux',
         front: '/images/topes/0038-1.png',
         imgs: [],
@@ -688,6 +718,7 @@ db.products = [
     },
     {
         code: 39,
+        active: true,
         title: 'Tope Electrico De 30 Cm Vitrocerámica Aranci',
         front: '/images/topes/0039-1.png',
         imgs: [],
@@ -708,6 +739,7 @@ db.products = [
     },
     {
         code: 40,
+        active: true,
         title: 'Tope De Cocina Electrico De 60 cm Vitroceramico Aranci',
         front: '/images/topes/0040-1.png',
         imgs: [],
@@ -728,6 +760,7 @@ db.products = [
     },
     {
         code: 41,
+        active: true,
         title: 'Tope De Cocina Electrico De 77cm Vitroceramico Aranci',
         front: '/images/topes/0041-1.png',
         imgs: [],
@@ -748,6 +781,7 @@ db.products = [
     },
     {
         code: 42,
+        active: true,
         title: 'Tope De Cocina Electrico 90cm Vitroceramico Aranci',
         front: '/images/topes/0042-1.png',
         imgs: [],
@@ -768,6 +802,7 @@ db.products = [
     },
     {
         code: 43,
+        active: true,
         title: 'Kit De Limpieza De Vitrocerámica Weiman',
         front: '/images/otros/0043-1.png',
         imgs: ['/images/otros/0043-2.png'],
@@ -783,6 +818,7 @@ db.products = [
     },
     {
         code: 45,
+        active: true,
         title: 'Campana Extractora De Cocina De 90 cm Frigilux',
         front: '/images/campanas/0045-1.png',
         imgs: [],
@@ -802,6 +838,7 @@ db.products = [
     },
     {
         code: 46,
+        active: true,
         title: 'Campana De Pared De 90 Cm Euro Dial Tecnolam',
         front: '/images/campanas/0046-1.png',
         imgs: [],
@@ -822,6 +859,7 @@ db.products = [
     },
     {
         code: 48,
+        active: true,
         title: 'Dispensador Enfriador De Botellón Con Nevera Rania',
         front: '/images/otros/0048-1.png',
         imgs: ['/images/otros/0048-2.png', '/images/otros/0048-3.png'],
@@ -843,6 +881,7 @@ db.products = [
     },
     {
         code: 50,
+        active: true,
         title: 'Cafetera De 5 Tazas Oster',
         front: '/images/cafeteras/0050-1.png',
         imgs: ['/images/cafeteras/0050-2.png', '/images/cafeteras/0050-3.png'],
@@ -862,6 +901,7 @@ db.products = [
     },
     {
         code: 51,
+        active: true,
         title: 'Cafetera De 12 Tazas Negra Oster',
         front: '/images/cafeteras/0051-1.png',
         imgs: ['/images/cafeteras/0051-2.png', '/images/cafeteras/0051-3.png'],
@@ -881,6 +921,7 @@ db.products = [
     },
     {
         code: 52,
+        active: true,
         title: 'Cafetera De 12 Tazas Negra Oster',
         front: '/images/cafeteras/0052-1.png',
         imgs: [
@@ -904,6 +945,7 @@ db.products = [
     },
     {
         code: 54,
+        active: true,
         title: 'Cafetera Espresso Cappuccino Oster',
         front: '/images/cafeteras/0054-1.png',
         imgs: [
@@ -926,6 +968,7 @@ db.products = [
     },
     {
         code: 55,
+        active: true,
         title: 'Cafetera Programable 12 Tazas Roja Mr Coffee',
         front: '/images/cafeteras/0055-1.png',
         imgs: [],
@@ -946,6 +989,7 @@ db.products = [
     },
     {
         code: 56,
+        active: true,
         title: 'Molino De Café Y Especias Negro Hamilton Beach',
         front: '/images/cafeteras/0056-1.png',
         imgs: ['/images/cafeteras/0056-2.png', '/images/cafeteras/0056-3.png'],
@@ -963,6 +1007,7 @@ db.products = [
     },
     {
         code: 57,
+        active: true,
         title: 'Cafetera Greca Magefesa 3 Tazas',
         front: '/images/cafeteras/0057-1.png',
         imgs: ['/images/cafeteras/0057-2.png'],
@@ -981,6 +1026,7 @@ db.products = [
     },
     {
         code: 58,
+        active: true,
         title: 'Cafetera Greca Magefesa 6 Tazas',
         front: '/images/cafeteras/0058-1.png',
         imgs: ['/images/cafeteras/0058-2.png'],
@@ -999,6 +1045,7 @@ db.products = [
     },
     {
         code: 59,
+        active: true,
         title: 'Cafetera Greca Magefesa 9 Tazas',
         front: '/images/cafeteras/0059-1.png',
         imgs: ['/images/cafeteras/0059-2.png'],
@@ -1017,6 +1064,7 @@ db.products = [
     },
     {
         code: 60,
+        active: true,
         title: 'Cafetera 12 Tazas Brentwood',
         front: '/images/cafeteras/0060-1.png',
         imgs: ['/images/cafeteras/0060-2.png'],
@@ -1036,6 +1084,7 @@ db.products = [
     },
     {
         code: 62,
+        active: true,
         title: 'Ventilador De Pedestal 10 Pulgadas Salcar',
         front: '/images/otros/0062-1.png',
         imgs: ['/images/otros/0062-2.png', '/images/otros/0062-3.png'],
@@ -1053,6 +1102,7 @@ db.products = [
     },
     {
         code: 63,
+        active: true,
         title: 'Ventilador De Pedestal Negro Omega',
         front: '/images/otros/0063-1.png',
         imgs: [],
@@ -1070,6 +1120,7 @@ db.products = [
     },
     {
         code: 65,
+        active: true,
         title: 'Extractor De Jugos Oster 500ml',
         front: '/images/extractores/0065-1.png',
         imgs: [
@@ -1092,6 +1143,7 @@ db.products = [
     },
     {
         code: 66,
+        active: true,
         title: 'Extractor De Jugos Oster',
         front: '/images/extractores/0066-1.png',
         imgs: ['/images/extractores/0066-2.png'],
@@ -1111,6 +1163,7 @@ db.products = [
     },
     {
         code: 67,
+        active: true,
         title: 'Extractor De Jugo 400 Watts Premium',
         front: '/images/extractores/0067-1.png',
         imgs: ['/images/extractores/0067-2.png'],
@@ -1131,6 +1184,7 @@ db.products = [
     },
     {
         code: 68,
+        active: true,
         title: 'Extractor De Jugo 400 Watts Brentwood',
         front: '/images/extractores/0068-1.png',
         imgs: [
@@ -1153,6 +1207,7 @@ db.products = [
     },
     {
         code: 69,
+        active: true,
         title: 'Extractor De Jugo 800 Watts Brentwood',
         front: '/images/extractores/0069-1.png',
         imgs: [
@@ -1175,6 +1230,7 @@ db.products = [
     },
     {
         code: 70,
+        active: true,
         title: 'Extractor De Jugo 1000 Watts Brentwood',
         front: '/images/extractores/0070-1.png',
         imgs: ['/images/extractores/0070-2.png'],
@@ -1194,6 +1250,7 @@ db.products = [
     },
     {
         code: 72,
+        active: true,
         title: 'Congelador Dual 200lts Semi dual',
         front: '/images/otros/0072-1.png',
         imgs: ['/images/otros/0072-2.png'],
@@ -1213,6 +1270,7 @@ db.products = [
     },
     {
         code: 74,
+        active: true,
         title: 'Tv 20 Pulgadas - Syon',
         front: '/images/otros/0074-1.png',
         imgs: ['/images/otros/0074-2.png'],
@@ -1232,6 +1290,7 @@ db.products = [
     },
     {
         code: 76,
+        active: true,
         title: 'Batidora Planetaria De 7 Vel Hamilton Beach Negra',
         front: '/images/batidoras/0076-1.png',
         imgs: ['/images/batidoras/0076-2.png'],
@@ -1251,6 +1310,7 @@ db.products = [
     },
     {
         code: 77,
+        active: true,
         title: 'Batidora De Pedestal Hamilton Beach Tipo Kitchinaid',
         front: '/images/batidoras/0077-1.png',
         imgs: ['/images/batidoras/0077-2.png'],
@@ -1270,6 +1330,7 @@ db.products = [
     },
     {
         code: 78,
+        active: true,
         title: 'Batidora Planetaria 350 Watts Gtronic',
         front: '/images/batidoras/0078-1.png',
         imgs: [],
@@ -1290,6 +1351,7 @@ db.products = [
     },
     {
         code: 79,
+        active: true,
         title: 'Batidora De Pedestal De 6 Velocidades Oster',
         front: '/images/batidoras/0079-1.png',
         imgs: ['/images/batidoras/0079-2.png'],
@@ -1310,6 +1372,7 @@ db.products = [
     },
     {
         code: 80,
+        active: true,
         title: 'Batidora De Pedestal De 660 Watts 6 Vel Plateada Aranci',
         front: '/images/batidoras/0080-1.png',
         imgs: ['/images/batidoras/0080-2.png'],
@@ -1330,6 +1393,7 @@ db.products = [
     },
     {
         code: 81,
+        active: true,
         title: 'Batidora De Pedestal Blanca Black & Decker',
         front: '/images/batidoras/0081-1.png',
         imgs: ['/images/batidoras/0081-2.png', '/images/batidoras/0081-2.png'],
@@ -1350,6 +1414,7 @@ db.products = [
     },
     {
         code: 82,
+        active: true,
         title: 'Batidora De Mano Oster 5 Velocidades',
         front: '/images/batidoras/0082-1.png',
         imgs: [],
@@ -1369,6 +1434,7 @@ db.products = [
     },
     {
         code: 83,
+        active: true,
         title: 'Batidor De Inmersion 3 En 1 Con Procesador Y Batidor Oster',
         front: '/images/batidoras/0083-1.png',
         imgs: ['/images/batidoras/0083-2.png'],
@@ -1387,6 +1453,7 @@ db.products = [
     },
     {
         code: 84,
+        active: true,
         title: 'Batidora De Inmersión 200 Watts Brentwood',
         front: '/images/batidoras/0084-1.png',
         imgs: ['/images/batidoras/0084-2.png'],
@@ -1405,6 +1472,7 @@ db.products = [
     },
     {
         code: 85,
+        active: true,
         title: 'Batidora De Inmersión 3 En 1 Brentwood',
         front: '/images/batidoras/0085-1.png',
         imgs: ['/images/batidoras/0085-2.png', '/images/batidoras/0085-3.png'],
@@ -1423,6 +1491,7 @@ db.products = [
     },
     {
         code: 86,
+        active: true,
         title: 'Batidora De Inmersión Con Picatodo Hamilton Beach',
         front: '/images/batidoras/0086-1.png',
         imgs: ['/images/batidoras/0086-2.png', '/images/batidoras/0086-3.png'],
@@ -1441,6 +1510,7 @@ db.products = [
     },
     {
         code: 88,
+        active: true,
         title: 'Mini Picatodo Oster 1.5 Tazas',
         front: '/images/procesadores/0088-1.png',
         imgs: ['/images/procesadores/0088-2.png'],
@@ -1460,6 +1530,7 @@ db.products = [
     },
     {
         code: 89,
+        active: true,
         title: 'Picatodo Oster 3 Tazas',
         front: '/images/procesadores/0089-1.png',
         imgs: ['/images/procesadores/0089-2.png'],
@@ -1479,6 +1550,7 @@ db.products = [
     },
     {
         code: 90,
+        active: true,
         title: 'Mini Picatodo 1.5 Tazas Brentwood',
         front: '/images/procesadores/0090-1.png',
         imgs: ['/images/procesadores/0090-2.png'],
@@ -1498,6 +1570,7 @@ db.products = [
     },
     {
         code: 91,
+        active: true,
         title: 'Procesador De Alimentos De 10 Tazas Oster',
         front: '/images/procesadores/0091-1.png',
         imgs: [
@@ -1520,6 +1593,7 @@ db.products = [
     },
     {
         code: 92,
+        active: true,
         title: 'Procesador De Alimentos 8 Tazas Brentwood',
         front: '/images/procesadores/0092-1.png',
         imgs: [
@@ -1543,6 +1617,7 @@ db.products = [
     },
     {
         code: 94,
+        active: true,
         title: 'Plancha Eléctrica Con Bandeja 0ster',
         front: '/images/planchas/0094-1.png',
         imgs: ['/images/planchas/0094-2.png'],
@@ -1563,6 +1638,7 @@ db.products = [
     },
     {
         code: 95,
+        active: true,
         title: 'Sanduchera Parrilla Oster',
         front: '/images/planchas/0095-1.png',
         imgs: ['/images/planchas/0095-2.png'],
@@ -1582,6 +1658,7 @@ db.products = [
     },
     {
         code: 96,
+        active: true,
         title: 'Plancha Sandwichera Oster',
         front: '/images/planchas/0096-1.png',
         imgs: ['/images/planchas/0096-2.png'],
@@ -1602,6 +1679,7 @@ db.products = [
     },
     {
         code: 97,
+        active: true,
         title: 'Sanduchera Wafflera Oster',
         front: '/images/planchas/0097-1.png',
         imgs: ['/images/planchas/0097-2.png'],
@@ -1619,6 +1697,7 @@ db.products = [
     },
     {
         code: 98,
+        active: true,
         title: 'Sarten Electrico Oster',
         front: '/images/planchas/0098-1.png',
         imgs: ['/images/planchas/0098-2.png'],
@@ -1637,6 +1716,7 @@ db.products = [
     },
     {
         code: 99,
+        active: true,
         title: 'Tosty Arepas De 6 Porciones Oster',
         front: '/images/planchas/0099-1.png',
         imgs: ['/images/planchas/0099-2.png'],
@@ -1655,6 +1735,7 @@ db.products = [
     },
     {
         code: 100,
+        active: true,
         title: 'Tosty Arepa Brentwood',
         front: '/images/planchas/0100-1.png',
         imgs: ['/images/planchas/0100-2.png'],
@@ -1674,6 +1755,7 @@ db.products = [
     },
     {
         code: 101,
+        active: true,
         title: 'Arrocera Multiusos Oster 10 Tazas',
         front: '/images/planchas/0101-1.png',
         imgs: ['/images/planchas/0101-2.png', '/images/planchas/0101-3.png'],
@@ -1693,6 +1775,7 @@ db.products = [
     },
     {
         code: 102,
+        active: true,
         title: 'Sanduchera Premium',
         front: '/images/planchas/0102-1.png',
         imgs: ['/images/planchas/0102-2.png', '/images/planchas/0102-3.png'],
@@ -1712,6 +1795,7 @@ db.products = [
     },
     {
         code: 103,
+        active: true,
         title: 'Wafflera Brentwood',
         front: '/images/planchas/0103-1.png',
         imgs: ['/images/planchas/0103-2.png'],
@@ -1731,6 +1815,7 @@ db.products = [
     },
     {
         code: 104,
+        active: true,
         title: 'Maquina Para Hacer Mini Cupcakes',
         front: '/images/planchas/0104-1.png',
         imgs: ['/images/planchas/0104-2.png'],
@@ -1749,6 +1834,7 @@ db.products = [
     },
     {
         code: 105,
+        active: true,
         title: 'Maquina Para Hacer Waffles De Animales',
         front: '/images/planchas/0105-1.png',
         imgs: ['/images/planchas/0105-2.png'],
@@ -1768,6 +1854,7 @@ db.products = [
     },
     {
         code: 106,
+        active: true,
         title: 'Maquina Para Hacer Cake Pop',
         front: '/images/planchas/0106-1.png',
         imgs: ['/images/planchas/0106-2.png'],
@@ -1786,6 +1873,7 @@ db.products = [
     },
     {
         code: 107,
+        active: true,
         title: 'Olla De Presión Oster 7 Litros',
         front: '/images/planchas/0107-1.png',
         imgs: ['/images/planchas/0107-2.png', '/images/planchas/0107-3.png'],
@@ -1804,6 +1892,7 @@ db.products = [
     },
     {
         code: 108,
+        active: true,
         title: 'Cotufera Brentwood',
         front: '/images/otros/0108-1.png',
         imgs: [],
@@ -1823,6 +1912,7 @@ db.products = [
     },
     {
         code: 110,
+        active: true,
         title: 'Maquina De Coser Singer Promise',
         front: '/images/otros/0110-1.png',
         imgs: ['/images/otros/0110-2.png'],
@@ -1842,6 +1932,7 @@ db.products = [
     },
     {
         code: 112,
+        active: true,
         title: 'Vaso Plástico Para Licuadora Oster',
         front: '/images/repuestos/0112-1.png',
         imgs: [],
@@ -1859,6 +1950,7 @@ db.products = [
     },
     {
         code: 113,
+        active: true,
         title: 'Vaso De Repuesto De Vidrio Para  Licuadora Oster',
         front: '/images/repuestos/0113-1.png',
         imgs: [],
@@ -1876,6 +1968,7 @@ db.products = [
     },
     {
         code: 114,
+        active: true,
         title: 'Vaso De Vidrio De Licuadora Oster 1.25',
         front: '/images/repuestos/0114-1.png',
         imgs: [],
@@ -1893,6 +1986,7 @@ db.products = [
     },
     {
         code: 115,
+        active: true,
         title: 'Jarra Repuesto Para Cafetera Oster 12 Tazas',
         front: '/images/repuestos/0115-1.png',
         imgs: [],
@@ -1910,6 +2004,7 @@ db.products = [
     },
     {
         code: 116,
+        active: true,
         title: 'Cuchilla 4 picos Oster',
         front: '/images/repuestos/0116-1.png',
         imgs: [],
@@ -1926,6 +2021,7 @@ db.products = [
     },
     {
         code: 117,
+        active: true,
         title: 'Cuchilla Para Licuadora Oster 6 Hojillas',
         front: '/images/repuestos/0117-1.png',
         imgs: [],
@@ -1942,6 +2038,7 @@ db.products = [
     },
     {
         code: 118,
+        active: true,
         title: 'Anillos Selladores De Licuadora Oster',
         front: '/images/repuestos/0118-1.png',
         imgs: ['/images/repuestos/0118-2.png'],
@@ -1959,6 +2056,7 @@ db.products = [
     },
     {
         code: 119,
+        active: true,
         title: 'Up Regulador De Voltaje De 8 Tomas',
         front: '/images/otros/0119-1.png',
         imgs: ['/images/otros/0119-2.png'],
@@ -1976,6 +2074,7 @@ db.products = [
     },
     {
         code: 120,
+        active: true,
         title: 'Cepillo Secador Tipo Revlon Aranci',
         front: '/images/otros/0120-1.png',
         imgs: ['/images/otros/0120-2.png'],
@@ -1994,6 +2093,7 @@ db.products = [
     },
     {
         code: 121,
+        active: true,
         title: 'Plancha De Ropa A Vapor Blanca Brentwood',
         front: '/images/otros/0121-1.png',
         imgs: [],
@@ -2012,6 +2112,7 @@ db.products = [
     },
     {
         code: 122,
+        active: true,
         title: 'Plancha De Ropa A Vapor Gris Brentwood',
         front: '/images/otros/0122-1.png',
         imgs: [],
@@ -2030,6 +2131,7 @@ db.products = [
     },
     {
         code: 123,
+        active: true,
         title: 'Plancha De Ropa A Vapor Roja Brentwood',
         front: '/images/otros/0123-1.png',
         imgs: [],
@@ -2048,6 +2150,7 @@ db.products = [
     },
     {
         code: 124,
+        active: true,
         title: 'Plancha De Ropa A Vapor Oster',
         front: '/images/otros/0124-1.png',
         imgs: [],
@@ -2066,6 +2169,7 @@ db.products = [
     },
     {
         code: 126,
+        active: true,
         title: 'Plancha A Vapor Azul Oster',
         front: '/images/otros/0126-1.png',
         imgs: [],
@@ -2084,6 +2188,7 @@ db.products = [
     },
     {
         code: 127,
+        active: true,
         title: 'Cafetera 4 Tazas Brentwood',
         front: '/images/cafeteras/0127-1.png',
         imgs: ['/images/cafeteras/0127-2.png', '/images/cafeteras/0127-3.png'],

@@ -3,6 +3,8 @@ const handlers = {};
 const uuid = require('uuid');
 
 const { products, igPost } = require('./db');
+const Orders = require('../models/Orders');
+const Products = require('../models/Products');
 
 function calcPrice(cookiesUserCart) {
     // *OBTENIENDO EL CARRITO
