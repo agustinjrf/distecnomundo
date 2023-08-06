@@ -1,6 +1,6 @@
 const helpers = {};
 
-const { products } = require('../handlers/db');
+const products = require('../handlers/Distecnomundo.Products.json');
 
 helpers.validateForm = (req, res, next) => {
     // *VALIDANDO DATOS DEL FORMULARIO

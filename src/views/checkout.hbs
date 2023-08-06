@@ -1,123 +1,162 @@
 {{> nav }}
 
 <div class="checkout-container">
-    <p class="checkout-note">NOTA. Recuerda qué esto solo es una solicitud de pedido, una vez confirmada la disponibilidad de los productos, nos comunicaremos con usted para concretar el pago y el envío.</p>
+    <p class="checkout-note">NOTA. Recuerda qué esto solo es una solicitud de pedido, una vez confirmada la
+        disponibilidad de los productos, nos comunicaremos con usted para concretar el pago y el envío.</p>
 
     <h2>Rellena tu hoja de pedido</h2>
-    <form action="/send-order"  method="POST" >
+    <form action="/send-order" method="POST">
         <div class="user-info">
             <div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">Nombres*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">Apellidos*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">CI / RIF*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">WhatsApp / Teléfono*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">Correo*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">Estado*</label>
-</div>
-<div class="inputGroup">
-    <input type="text" required="" autocomplete="off">
-    <label for="name">Ciudad*</label>
-</div>
-<p class="note2">Contamos con delivery y envios nacionales con 
-pago a destino.</p>
+                <input type="text" required="" autocomplete="off">
+                <label for="name">Nombres*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">Apellidos*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">CI / RIF*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">WhatsApp / Teléfono*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">Correo*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">Estado*</label>
+            </div>
+            <div class="inputGroup">
+                <input type="text" required="" autocomplete="off">
+                <label for="name">Ciudad*</label>
+            </div>
+            <p class="note2">Contamos con delivery y envios nacionales con
+                pago a destino.</p>
         </div>
         <div class="order-info">
             <div class="pay-info">
                 <h3 class="info__title">Métodos de pago</h3>
                 <p class="info__subtitle">Selecciona un método de pago</p>
                 <label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Deposito en BNC o Banco de Venezuela</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Dólares en efectivo</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Bolívares</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Banesco Panamá</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Paypal</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Reserve</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Zelle</label>
-<label class="cyberpunk-checkbox-label">
-<input class="cyberpunk-checkbox" type="checkbox">
-Binance</label>
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Transferencias Banesco o Bancamiga</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Depósito de divisas Banesco o Bancamiga</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Dólares en efectivo</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Pago móvil</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Banesco Panamá</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Paypal *Incluye comisiones*</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Zelle</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input class="cyberpunk-checkbox" type="checkbox">
+                    Binance</label>
             </div>
             <div class="send-info">
                 <h3 class="info__title">Datos de envío</h3>
                 <p class="info__subtitle">Selecciona un método de envío</p>
                 <label class="cyberpunk-checkbox-label">
-<input id="local" checked class="cyberpunk-checkbox" type="checkbox">
-Retiro en el local</label>
-<label class="cyberpunk-checkbox-label">
-<input id="delivery" class="cyberpunk-checkbox" type="checkbox">
-Delivery en Puerto la cruz, Barcelona o Lechería: 10$</label>
-<label class="cyberpunk-checkbox-label">
-<input id="mrw" class="cyberpunk-checkbox" type="checkbox">
-Envío con cobro a destino por MRW</label>
+                    <input id="local" checked class="cyberpunk-checkbox" type="checkbox">
+                    Retiro en tienda</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input id="delivery" class="cyberpunk-checkbox" type="checkbox">
+                    Delivery en Puerto la cruz, Barcelona o Lechería.</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input id="liberty" class="cyberpunk-checkbox" type="checkbox">
+                    Envío con cobro a destino por Liberty Express</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input id="mrw" class="cyberpunk-checkbox" type="checkbox">
+                    Envío con cobro a destino por MRW</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input id="zoom" class="cyberpunk-checkbox" type="checkbox">
+                    Envío con cobro a destino por Zoom</label>
+                <label class="cyberpunk-checkbox-label">
+                    <input id="tealca" class="cyberpunk-checkbox" type="checkbox">
+                    Envío con cobro a destino por Tealca</label>
 
-<div class="send-data">
-    <div id="localform" class="">
-        <h4>CC Caribbean Mall - Nivel C1, local 160</h4>
-        <h5>Lechería, Anzoátegui</h5>
-         <div class="button button--line blue"><a href="https://goo.gl/maps/hpSaBKGg63Myx86y6" target="_blank">Maps <i class="bi bi-geo-alt"></i></a></div>
-        <p>Nota. Disponible de lunes a sábado de 9:30am a 5:30pm</p>
-    </div>
-    <div id="deliveryform" class="hidden">
-        <div class="inputGroup">
-    <input type="text">
-    <label for="name">Dirección*</label>
-</div>
 
-    </div>
-    <div id="mrwform" class="hidden">
-                <div class="inputGroup">
-    <input type="text">
-    <label for="name">Oficina de MRW</label>
-</div>
 
-    </div>
-</div>
+                <div class="send-data">
+                    <div id="localform" class="">
+                        <h4>CC Caribbean Mall - Nivel C1, local 160</h4>
+                        <h5>Lechería, Anzoátegui</h5>
+                        <div class="button button--line blue"><a href="https://goo.gl/maps/hpSaBKGg63Myx86y6"
+                                target="_blank">Maps <i class="bi bi-geo-alt"></i></a></div>
+
+                        <h4>Av. Las Palmas, Caracas 1071, Miranda</h4>
+                        <h5>Caracas, Distrito Capital</h5>
+                        <div class="button button--line blue"><a href="https://goo.gl/maps/u2pRXsDN1LbAJZtaA"
+                                target="_blank">Maps <i class="bi bi-geo-alt"></i></a></div>
+                        <p>Nota. Disponible de lunes a sábado de 9:30am a 5:30pm</p>
+                    </div>
+                    <div id="deliveryform" class="hidden">
+                        <div class="inputGroup">
+                            <input type="text">
+                            <label for="name">Dirección*</label>
+                        </div>
+
+                    </div>
+                    <div id="mrwform" class="hidden">
+                        <div class="inputGroup">
+                            <input type="text">
+                            <label for="name">Oficina de MRW</label>
+                        </div>
+
+                    </div>
+                    <div id="zoomform" class="hidden">
+                        <div class="inputGroup">
+                            <input type="text">
+                            <label for="name">Oficina de Zoom</label>
+                        </div>
+
+                    </div>
+                    <div id="libertyform" class="hidden">
+                        <div class="inputGroup">
+                            <input type="text">
+                            <label for="name">Oficina de Liberty Express</label>
+                        </div>
+
+                    </div>
+                    <div id="tealcaform" class="hidden">
+                        <div class="inputGroup">
+                            <input type="text">
+                            <label for="name">Oficina de Tealca</label>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="products-summary">
             <h4>Tu pedido</h4>
             {{#each cart}}
-                <div class="products-summary__item">
-                    <h6 class="products-summary__title">{{product.title}}</h6>
-                    <p class="products-summary__price">precio. {{product.price}} x {{quantity}}</p>
-                </div>
+            <div class="products-summary__item">
+                <h6 class="products-summary__title">{{product.title}}</h6>
+                <p class="products-summary__price">precio. {{product.price}} x {{quantity}}</p>
+            </div>
             {{/each}}
             <div class="total">
                 <p>Total</p>
                 <h5>${{price}}</h5>
-                
+
             </div>
-                 <button type="submit" class="special-button">Confirmar pedido</button>
+            <button type="submit" class="special-button">Confirmar pedido</button>
 
         </div>
     </form>

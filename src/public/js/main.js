@@ -83,19 +83,31 @@ document.getElementById('updatePrice2').innerHTML = `$${updatePrice}`;
 let localInput = document.getElementById('local');
 let deliveryInput = document.getElementById('delivery');
 let mrwInput = document.getElementById('mrw');
+let libertyInput = document.getElementById('liberty');
+let zoomInput = document.getElementById('zoom');
+let tealcaInput = document.getElementById('tealca');
 
 let localForm = document.getElementById('localform');
 let deliveryForm = document.getElementById('deliveryform');
 let mrwForm = document.getElementById('mrwform');
+let libertyForm = document.getElementById('libertyform');
+let zoomForm = document.getElementById('zoomform');
+let tealcaForm = document.getElementById('tealcaform');
 
 localInput.addEventListener('click', () => {
     if (localInput.checked) {
         deliveryInput.checked = false;
         mrwInput.checked = false;
+        libertyInput.checked = false;
+        zoomInput.checked = false;
+        tealcaInput.checked = false;
 
         localForm.classList.remove('hidden');
         deliveryForm.classList.add('hidden');
         mrwForm.classList.add('hidden');
+        libertyForm.classList.add('hidden');
+        zoomForm.classList.add('hidden');
+        tealcaForm.classList.add('hidden');
     }
 });
 
@@ -103,21 +115,80 @@ deliveryInput.addEventListener('click', () => {
     if (deliveryInput.checked) {
         localInput.checked = false;
         mrwInput.checked = false;
+        libertyInput.checked = false;
+        zoomInput.checked = false;
+        tealcaInput.checked = false;
 
-        deliveryForm.classList.remove('hidden');
         localForm.classList.add('hidden');
+        deliveryForm.classList.remove('hidden');
         mrwForm.classList.add('hidden');
+        libertyForm.classList.add('hidden');
+        zoomForm.classList.add('hidden');
+        tealcaForm.classList.add('hidden');
     }
 });
-
 mrwInput.addEventListener('click', () => {
     if (mrwInput.checked) {
         localInput.checked = false;
         deliveryInput.checked = false;
+        libertyInput.checked = false;
+        zoomInput.checked = false;
+        tealcaInput.checked = false;
 
-        mrwForm.classList.remove('hidden');
         localForm.classList.add('hidden');
         deliveryForm.classList.add('hidden');
+        mrwForm.classList.remove('hidden');
+        libertyForm.classList.add('hidden');
+        zoomForm.classList.add('hidden');
+        tealcaForm.classList.add('hidden');
+    }
+});
+libertyInput.addEventListener('click', () => {
+    if (libertyInput.checked) {
+        localInput.checked = false;
+        deliveryInput.checked = false;
+        mrwInput.checked = false;
+        zoomInput.checked = false;
+        tealcaInput.checked = false;
+
+        localForm.classList.add('hidden');
+        deliveryForm.classList.add('hidden');
+        mrwForm.classList.add('hidden');
+        libertyForm.classList.remove('hidden');
+        zoomForm.classList.add('hidden');
+        tealcaForm.classList.add('hidden');
+    }
+});
+zoomInput.addEventListener('click', () => {
+    if (zoomInput.checked) {
+        localInput.checked = false;
+        deliveryInput.checked = false;
+        mrwInput.checked = false;
+        libertyInput.checked = false;
+        tealcaInput.checked = false;
+
+        localForm.classList.add('hidden');
+        deliveryForm.classList.add('hidden');
+        mrwForm.classList.add('hidden');
+        libertyForm.classList.add('hidden');
+        zoomForm.classList.remove('hidden');
+        tealcaForm.classList.add('hidden');
+    }
+});
+tealcaInput.addEventListener('click', () => {
+    if (tealcaInput.checked) {
+        localInput.checked = false;
+        deliveryInput.checked = false;
+        mrwInput.checked = false;
+        libertyInput.checked = false;
+        zoomInput.checked = false;
+
+        localForm.classList.add('hidden');
+        deliveryForm.classList.add('hidden');
+        mrwForm.classList.add('hidden');
+        libertyForm.classList.add('hidden');
+        zoomForm.classList.add('hidden');
+        tealcaForm.classList.remove('hidden');
     }
 });
 

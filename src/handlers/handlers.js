@@ -2,9 +2,30 @@ const handlers = {};
 
 const uuid = require('uuid');
 
-const { products, igPost } = require('./db');
-const Orders = require('../models/Orders');
-const Products = require('../models/Products');
+const igPost = [
+    {
+        img: './images/ig01.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+    },
+    {
+        img: './images/ig02.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+    },
+    {
+        img: './images/ig03.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+    },
+    {
+        img: './images/ig04.png',
+        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+    },
+];
+
+require('../database');
+const Order = require('../models/Order');
+const Product = require('../models/Product');
+
+const products = require('../handlers/Distecnomundo.Products.json');
 
 function calcPrice(cookiesUserCart) {
     // *OBTENIENDO EL CARRITO
@@ -57,7 +78,7 @@ function randomProducts() {
     let randomProducts = [];
 
     for (let i = 1; i < 7; i++) {
-        randomProducts[i] = products[Math.ceil(Math.random() * 100)];
+        randomProducts[i - 1] = products[Math.ceil(Math.random() * 100)];
     }
 
     return randomProducts;
@@ -93,7 +114,7 @@ handlers.renderCheckout = (req, res) => {
     res.render('checkout', { cart, price });
 };
 
-handlers.renderCatalog = (req, res) => {
+handlers.renderCatalog = async (req, res) => {
     res.render('catalog', { products });
 };
 
