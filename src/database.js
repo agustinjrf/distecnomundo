@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 
 //const MONGODB_URI = process.env.DISTECNOMUNDO_MONGODB_URI;MjQLycmuu1t0fDQb
-const MONGODB_URI =
-    'mongodb+srv://Dist:MjQLycmuu1t0fDQb@tecno.onjv3om.mongodb.net/?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.DISTECNOMUNDO_MONGODB_URI;
 
 const db = mongoose.connection;
 

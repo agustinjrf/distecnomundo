@@ -23,17 +23,17 @@ function cookiesAlert() {
 function toggleMenu() {
     const menu = document.querySelector('#menu');
 
-    menu.classList.toggle('animate__slideOutLeft');
-    menu.classList.remove('hidden');
-    menu.classList.toggle('animate__slideInLeft');
+    //menu.classList.toggle('animate__slideOutLeft');
+    menu.classList.toggle('hidden');
+    //menu.classList.toggle('animate__slideInLeft');
 }
 
 function filterToggle() {
     const filter = document.querySelector('#filter');
 
-    filter.classList.toggle('animate__slideOutLeft');
-    filter.classList.remove('hidden');
-    filter.classList.toggle('animate__slideInLeft');
+    //filter.classList.toggle('animate__slideOutLeft');
+    filter.classList.toggle('hidden');
+    //filter.classList.toggle('animate__slideInLeft');
     document
         .querySelector('.catalog__filter.main__filter')
         .classList.toggle('disable');

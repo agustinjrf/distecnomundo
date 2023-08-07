@@ -43,6 +43,10 @@ nav {
     }
 }
 
+#menu.hidden {
+    display: hidden;
+}
+
 #menu {
     position: fixed;
     width: 100vw;
@@ -50,7 +54,7 @@ nav {
     background: rgba(0, 0, 0, 0.856);
     backdrop-filter: blur(4px);
     z-index: 2;
-    transition: 0.25s;
+    transition: all 0.25s ease;
 
     .basket {
         margin-top: 100px;
