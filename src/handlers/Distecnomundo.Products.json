@@ -1178,14 +1178,14 @@
         "imgs": ["/images/otros/0062-2.png", "/images/otros/0062-3.png"],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-718328060-ventilador-de-pedestal-10-pulgadas-salcar-_JM",
-        "price": 35,
+        "price": 23,
         "description": "Desempeño de alta velocidad, potente flujo de aire, regulación de 3 velocidades, amplio rango de regulación, patas antideslizantes, protección anti recalentamiento del motor, altura ajustable.",
         "features": {
             "Fabricante": ["Fabricante", "SALCAR"],
             "Modelo": ["Modelo", "SAL-VENTP10"],
             "Color": ["Color", "Varios"]
         },
-        "promPrice": 30
+        "promPrice": 20
     },
     {
         "_id": {
@@ -1198,14 +1198,14 @@
         "imgs": [],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-732346995-ventilador-de-pedestal-negro-omega-_JM",
-        "price": 23,
+        "price": 35,
         "description": "Motor de cobre 75 w, 3 velocidades, regulador rotativo, parrilla plástica negra, 5 piezas de hoja de plástico, tubo cromado, base circular cuatro agujeros.",
         "features": {
             "Fabricante": ["Fabricante", "OMEGA"],
             "Modelo": ["Modelo", "OVP-18P"],
             "Color": ["Color", "Negro"]
         },
-        "promPrice": 20
+        "promPrice": 30
     },
     {
         "_id": {
