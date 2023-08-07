@@ -1073,14 +1073,14 @@
         ],
         "tags": ["linea blanca", "cafeteras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-707464338-molino-de-cafe-y-especias-negro-hamilton-beach-_JM",
-        "price": 23,
+        "price": 25,
         "description": "Cámara moledora desmontable, muele café y especias, almacenamiento para cable, cuchilla de acero inoxidable, más silencioso, botón de encendido y apagado.",
         "features": {
             "Fabricante": ["Fabricante", "HAMILTON BEACH"],
             "Modelo": ["Modelo", "80335RV"],
             "Color": ["Color", "Negro"]
         },
-        "promPrice": 20
+        "promPrice": 22
     },
     {
         "_id": {
@@ -2027,7 +2027,7 @@
             "$oid": "64c1f202fd77fc967d97a826"
         },
         "code": 106,
-        "active": true,
+        "active": false,
         "title": "Maquina Para Hacer Cake Pop",
         "front": "/images/planchas/0106-1.png",
         "imgs": ["/images/planchas/0106-2.png"],
@@ -2361,7 +2361,7 @@
         "imgs": [],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-730265763-plancha-de-ropa-a-vapor-oster-_JM",
-        "price": 20,
+        "price": 28,
         "description": "Este modelo de planchas, por su tamaño, ofrece una solución innovadora que ayuda a reducir el esfuerzo que se realiza al planchar y obtener un terminado perfecto. Es una plancha compacta con suela antiadherente y fácil de almacenar que te encantará. Su vapor continuo y la posibilidad de seleccionar el tipo de tela a planchar, te ofrece la mejor protección para todo tipo de prendas. Además, los modelos de esta serie ofrecen un 20% más cobertura de vapor, lo que facilita remover mejor las arrugas profundas con menor esfuerzo. Tamaño eficiente y compacto para un mejor manejo de planchado y fácil almacenamiento Te brinda un 20% mayor cobertura al planchar* (*vs GCSTBS3800 de Oster®) Suela antiadherente, para un mejor deslizamiento sobre la tela Botón de rociado fino para combatir arrugas difíciles Luz de encendido Tecnología Anti calcificación Control de temperatura que te permite ajustar el calor según el tipo de tejido: seda, sintético, lana, algodón, etc. Cable giratorio/ Cordón que gira 360° grados, para evitar enredos al planchar.",
         "features": {
             "Fabricante": ["Fabricante", "OSTER"],
@@ -2369,7 +2369,7 @@
             "Voltaje": ["Voltaje", "120V"],
             "Color": ["Color", "Bronce"]
         },
-        "promPrice": 17
+        "promPrice": 25
     },
     {
         "_id": {
@@ -2382,7 +2382,7 @@
         "imgs": [],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-730238983-plancha-de-ropa-a-vapor-oster-_JM",
-        "price": 25,
+        "price": 28,
         "description": "Una plancha compacta con suela antiadherente y fácil de almacenar que te encantará,sobre todo si eres de las personas que plancha una o dos veces por semana y valoras guardarla en espacios pequeños. Su vapor continuo y la posibilidad de seleccionar el tipo de tela a planchar, te ofrece la mejor protección para todo tipo de prendas. Además, los modelos de esta serie ofrecen un 20% más cobertura de vapor, lo que facilita remover mejor las arrugas profundas con menor esfuerzo.",
         "features": {
             "Fabricante": ["Fabricante", "OSTER"],
@@ -2390,7 +2390,7 @@
             "Voltaje": ["Voltaje", "120V"],
             "Color": ["Color", "Lavanda"]
         },
-        "promPrice": 22
+        "promPrice": 25
     },
     {
         "_id": {
