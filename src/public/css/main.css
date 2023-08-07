@@ -706,12 +706,25 @@ footer .footer__social a i:hover {
 .layout--container .product-layout .product-layout__info .info__thereis {
   margin-bottom: 62px;
   font-size: 1rem;
+  width: 180px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #84ff80;
+  color: #30a82c;
+}
+.layout--container .product-layout .product-layout__info .info__thereis.not {
+  margin-bottom: 62px;
+  font-size: 1rem;
+  background-color: #ff8080;
+  color: #a82c2c;
 }
 .layout--container .product-layout .product-layout__info .info__price {
   font-size: 1.1875em;
   font-weight: 400;
   margin-bottom: 12px;
   color: #747474;
+  text-decoration: line-through;
 }
 .layout--container .product-layout .product-layout__info .info__prom {
   font-size: 2.7819em;
@@ -1432,6 +1445,32 @@ input[type=number] {
   margin: 20px 0 20px 0;
   max-width: 376px;
   position: relative;
+}
+
+.inputGroup.input__success {
+  font-family: "Segoe UI", sans-serif;
+  margin: 20px 0 20px 0;
+  max-width: 376px;
+  position: relative;
+}
+.inputGroup.input__success label {
+  color: rgb(106, 230, 49);
+}
+.inputGroup.input__success input {
+  border: 2px solid rgb(106, 230, 49);
+}
+
+.inputGroup.input__error {
+  font-family: "Segoe UI", sans-serif;
+  margin: 20px 0 20px 0;
+  max-width: 376px;
+  position: relative;
+}
+.inputGroup.input__error label {
+  color: rgb(230, 49, 49);
+}
+.inputGroup.input__error input {
+  border: 2px solid rgb(230, 49, 49);
 }
 
 .inputGroup input {

@@ -178,6 +178,36 @@
     position: relative;
 }
 
+.inputGroup.input__success {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px 0 20px 0;
+    max-width: 376px;
+    position: relative;
+
+    label {
+        color: rgb(106, 230, 49);
+    }
+
+    input {
+        border: 2px solid rgb(106, 230, 49);
+    }
+}
+
+.inputGroup.input__error {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px 0 20px 0;
+    max-width: 376px;
+    position: relative;
+
+    label {
+        color: rgb(230, 49, 49);
+    }
+
+    input {
+        border: 2px solid rgb(230, 49, 49);
+    }
+}
+
 .inputGroup input {
     font-size: 100%;
     padding: 0.8em;

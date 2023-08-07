@@ -17,15 +17,22 @@
 
             <h2 class="info__title">{{item.title}}</h2>
             <p class="info__cod" id="info__cod">COD - 000{{item.code}}</p>
+            {{#if item.active}}
             <p class="info__thereis" id="info__thereis">
-                {{#if item.active}}
                 Producto disponible
-                {{else}}
-                Sin disponibilidad
-                {{/if}}
             </p>
+            {{else}}
+            <p class="info__thereis not" id="info__thereis">
+                Sin disponibilidad
+            </p>
+            {{/if}}
 
+            {{#if item.promPrice}}
+            <p class="info__price">$ {{item.price}} USD</p>
+            <p class="info__prom">$ {{item.promPrice}} USD</p>
+            {{else}}
             <p class="info__prom">$ {{item.price}} USD</p>
+            {{/if}}
 
             <div class="quantity">
                 <button onclick="productNumber('less')" type="button" class="btn--remove">-</button>
