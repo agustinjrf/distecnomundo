@@ -4,7 +4,7 @@
             "$oid": "64c1eec9fd77fc967d97a7c9"
         },
         "code": 3,
-        "active": false,
+        "active": true,
         "title": "Aire de ventana - 12000 BTU Omega",
         "front": "/images/aires/0003-1.png",
         "imgs": ["/images/aires/0003-2.png", "/images/aires/0003-3.png"],
@@ -28,7 +28,7 @@
             "$oid": "64c1efc8fd77fc967d97a7cb"
         },
         "code": 4,
-        "active": false,
+        "active": true,
         "title": "Aire Acondicionado Split - 12000 BTU Omega",
         "front": "/images/aires/0004-1.png",
         "imgs": ["/images/aires/0004-2.png", "/images/aires/0004-3.png"],
@@ -1026,15 +1026,14 @@
         ],
         "tags": ["linea blanca", "cafeteras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-728115925-cafetera-espresso-cappuccino-oster-_JM",
-        "price": 180,
+        "price": 170,
         "description": "El placer de un café delicioso es una sensación que deberías poder disfrutar a cualquier hora. La cafetera de espresso Oster® ofrece una forma fácil de personalizar tus bebidas favoritas de espresso. La bomba de 15 bares y el sistema espumador de leche son ideales para crear deliciosos espressos, cappuccinos, lattes y más desde la comodidad de tu hogar. Incluye portafiltro con filtros para shot sencillo y doble.",
         "features": {
             "Fabricante": ["Fabricante", "OSTER"],
             "Voltaje": ["Voltaje", "110V"],
             "Modelo": ["Modelo", "BVSTEM5501B"],
             "Color": ["Color", "Negro"]
-        },
-        "promPrice": 150
+        }
     },
     {
         "_id": {
@@ -1073,14 +1072,14 @@
         ],
         "tags": ["linea blanca", "cafeteras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-707464338-molino-de-cafe-y-especias-negro-hamilton-beach-_JM",
-        "price": 25,
+        "price": 23,
         "description": "Cámara moledora desmontable, muele café y especias, almacenamiento para cable, cuchilla de acero inoxidable, más silencioso, botón de encendido y apagado.",
         "features": {
             "Fabricante": ["Fabricante", "HAMILTON BEACH"],
             "Modelo": ["Modelo", "80335RV"],
             "Color": ["Color", "Negro"]
         },
-        "promPrice": 22
+        "promPrice": 20
     },
     {
         "_id": {
@@ -1178,14 +1177,14 @@
         "imgs": ["/images/otros/0062-2.png", "/images/otros/0062-3.png"],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-718328060-ventilador-de-pedestal-10-pulgadas-salcar-_JM",
-        "price": 23,
+        "price": 35,
         "description": "Desempeño de alta velocidad, potente flujo de aire, regulación de 3 velocidades, amplio rango de regulación, patas antideslizantes, protección anti recalentamiento del motor, altura ajustable.",
         "features": {
             "Fabricante": ["Fabricante", "SALCAR"],
             "Modelo": ["Modelo", "SAL-VENTP10"],
             "Color": ["Color", "Varios"]
         },
-        "promPrice": 20
+        "promPrice": 30
     },
     {
         "_id": {
@@ -1198,14 +1197,14 @@
         "imgs": [],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-732346995-ventilador-de-pedestal-negro-omega-_JM",
-        "price": 35,
+        "price": 23,
         "description": "Motor de cobre 75 w, 3 velocidades, regulador rotativo, parrilla plástica negra, 5 piezas de hoja de plástico, tubo cromado, base circular cuatro agujeros.",
         "features": {
             "Fabricante": ["Fabricante", "OMEGA"],
             "Modelo": ["Modelo", "OVP-18P"],
             "Color": ["Color", "Negro"]
         },
-        "promPrice": 30
+        "promPrice": 20
     },
     {
         "_id": {
@@ -1259,7 +1258,7 @@
             "$oid": "64c1f202fd77fc967d97a804"
         },
         "code": 67,
-        "active": false,
+        "active": true,
         "title": "Extractor De Jugo 400 Watts Premium",
         "front": "/images/extractores/0067-1.png",
         "imgs": ["/images/extractores/0067-2.png"],
@@ -1275,7 +1274,7 @@
             "Capacidad": ["Capacidad", "1,2L"],
             "Jarra": ["Jarra", "350ml"]
         },
-        "promPrice": false
+        "promPrice": 70
     },
     {
         "_id": {
@@ -1368,8 +1367,7 @@
             "Voltaje": ["Voltaje", "110V"],
             "Color": ["Color", "Blanco"],
             "Capacidad": ["Capacidad", "200L"]
-        },
-        "promPrice": 365
+        }
     },
     {
         "_id": {
@@ -1421,7 +1419,7 @@
         },
         "code": 77,
         "active": true,
-        "title": "Batidora De Pedestal Hamilton Beach Tipo Kitchenaid",
+        "title": "Batidora De Pedestal Hamilton Beach Tipo Kitchinaid",
         "front": "/images/batidoras/0077-1.png",
         "imgs": ["/images/batidoras/0077-2.png"],
         "tags": ["linea blanca", "batidoras"],
@@ -1434,8 +1432,7 @@
             "Potencia": ["Potencia", "300 WATTS."],
             "Color": ["Color", "Plateado"],
             "Tazon": ["Tazón", "3,8L"]
-        },
-        "promPrice": 145
+        }
     },
     {
         "_id": {
@@ -1715,7 +1712,7 @@
             "$oid": "64c1f202fd77fc967d97a818"
         },
         "code": 91,
-        "active": false,
+        "active": true,
         "title": "Procesador De Alimentos De 10 Tazas Oster",
         "front": "/images/procesadores/0091-1.png",
         "imgs": [
@@ -1733,7 +1730,7 @@
             "Color": ["Color", "Negro"],
             "Capacidad": ["Capacidad", "10 tazas"]
         },
-        "promPrice": false
+        "promPrice": 99
     },
     {
         "_id": {
@@ -1791,9 +1788,9 @@
         "code": 95,
         "active": true,
         "title": "Sanduchera Parrilla Oster",
-        "front": "/images/planchas/0095-1.png",
-        "imgs": ["/images/planchas/0095-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/sanducheras/0095-1.png",
+        "imgs": ["/images/sanducheras/0095-2.png"],
+        "tags": ["linea blanca", "sanducheras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-720632165-sanduchera-parrilla-oster-_JM",
         "price": 70,
         "description": "Sistema de altura ajustable que se adapta a diversos tipos de panes almacenamiento vertical con cierre de seguridad para ahorrar espacio práctica área para enrollar el cable y mantener organizada la cocina planchas anti adherentes que facilitan la limpieza exterior estilo contemporáneo en acero inoxidable resistente.",
@@ -1836,9 +1833,9 @@
         "code": 97,
         "active": true,
         "title": "Sanduchera Wafflera Oster",
-        "front": "/images/planchas/0097-1.png",
-        "imgs": ["/images/planchas/0097-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/sanducheras/0097-1.png",
+        "imgs": ["/images/sanducheras/0097-2.png"],
+        "tags": ["linea blanca", "sanducheras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-737976561-sanduchera-wafflera-oster-_JM",
         "price": 80,
         "description": "Una sandwichera más que completa con la que podrás preparar no sólo sándwiches sino también waffles, o cocinar alimentos como carnes y vegetales, pudiendo abrirse completamente para usar como parrilla. La altura es regulable, de acuerdo al grosor de lo que quieras elaborar. Además, las superficies de cocción son removibles para que la limpieza sea más fácil, Tres-en-uno: placas reversibles para preparar waffles, dorar sándwiches o cocinar alimentos Control variable que te permite seleccionar la temperatura adecuada para cocinar Superficies de cocción con recubrimiento antiadherente Altura regulable para preparar comidas de cualquier grosor Se abre completamente para cocinar a la parrilla Superficies de cocción removibles Asas y base frías al tacto.",
@@ -1942,9 +1939,9 @@
         "code": 102,
         "active": true,
         "title": "Sanduchera Premium",
-        "front": "/images/planchas/0102-1.png",
-        "imgs": ["/images/planchas/0102-2.png", "/images/planchas/0102-3.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/sanducheras/0102-1.png",
+        "imgs": ["/images/sanducheras/0102-2.png"],
+        "tags": ["linea blanca", "sanducheras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-740300644-sanduchera-premium-_JM",
         "price": 23,
         "description": "Capacidad para dos rebanadas. Superficie exterior fría al tacto. Platos con recubrimiento antiadherente. Luces indicadoras. Diseño compacto.",
@@ -2027,7 +2024,7 @@
             "$oid": "64c1f202fd77fc967d97a826"
         },
         "code": 106,
-        "active": false,
+        "active": true,
         "title": "Maquina Para Hacer Cake Pop",
         "front": "/images/planchas/0106-1.png",
         "imgs": ["/images/planchas/0106-2.png"],
@@ -2075,7 +2072,7 @@
         "imgs": [],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739761678-cotufera-brentwood-_JM",
-        "price": 35,
+        "price": 26,
         "description": "La máquina para hacer palomitas de maíz con aire caliente Brentwood PC-486R de 8 tazas hace estallar hasta 8 tazas de palomitas de maíz saludables y sin aceite en solo 2-3 minutos. Disfrute de ahorros 4 veces mayores usando granos sueltos en lugar de bolsas para microondas. Las palomitas de maíz se colocan directamente en su tazón. Siga las recetas incluidas para crear sus propias palomitas de maíz gourmet. Las piezas extraíbles facilitan la limpieza.",
         "features": {
             "Fabricante": ["Fabricante", "BRENTWOOD"],
@@ -2084,7 +2081,7 @@
             "Capacidad": ["Capacidad", "8 tazas"],
             "Color": ["Color", "Rojo y Blanco"]
         },
-        "promPrice": 30
+        "promPrice": 23
     },
     {
         "_id": {
@@ -2097,7 +2094,7 @@
         "imgs": ["/images/otros/0110-2.png"],
         "tags": ["linea blanca", "otros"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739761678-cotufera-brentwood-_JM",
-        "price": 225,
+        "price": 235,
         "description": "Tipo de puntadas: recta/zig zag/decorativas ofrece un movimiento de cosido uniforme y lineal viene provista de guía de fácil enhebrado en pocos pasos posee una potente luz de costura para ganar en visibilidad incluye hasta 9 tipos de puntadas diferentes cuentas con pedal para regular la velocidad de forma muy sencilla el ajuste de presión del prénsatelas es automático posee un práctico y útil ojalador automático en 4 pasos dispone de un practico compartimiento para guardar sus accesorios.",
         "features": {
             "Fabricante": ["Fabricante", "SINGER"],
@@ -2105,8 +2102,7 @@
             "Voltaje": ["Voltaje", "110~120V/60 Hz/0.6 A"],
             "Velocidad": ["Capacidad", "750 ppm"],
             "Color": ["Color", "Blanco"]
-        },
-        "promPrice": 200
+        }
     },
     {
         "_id": {
@@ -2294,9 +2290,9 @@
         "code": 121,
         "active": true,
         "title": "Plancha De Ropa A Vapor Blanca Brentwood",
-        "front": "/images/otros/0121-1.png",
+        "front": "/images/planchas de ropa/0121-1.png",
         "imgs": [],
-        "tags": ["linea blanca", "otros"],
+        "tags": ["linea blanca", "planchas de ropa"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-744297687-plancha-de-ropa-a-vapor-blanca-brentwood-_JM",
         "price": 20,
         "description": "Recubrimiento antiadherente Control de calor ajustable Ajustes de secado, vapor y rociado Vapor vertical para cortinas, cortinajes y ropa de cama Fácil de llenar Compartimiento de agua transparente Indicador de luz de encendido.",
@@ -2315,9 +2311,9 @@
         "code": 122,
         "active": true,
         "title": "Plancha De Ropa A Vapor Gris Brentwood",
-        "front": "/images/otros/0122-1.png",
+        "front": "/images/planchas de ropa/0122-1.png",
         "imgs": [],
-        "tags": ["linea blanca", "otros"],
+        "tags": ["linea blanca", "planchas de ropa"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-759703030-plancha-de-ropa-a-vapor-gris-brentwood-_JM",
         "price": 20,
         "description": "Recubrimiento antiadherente Control de calor ajustable Ajustes de secado, vapor y rociado Vapor vertical para cortinas, cortinajes y ropa de cama Fácil de llenar Compartimiento de agua transparente Indicador de luz de encendido.",
@@ -2336,9 +2332,9 @@
         "code": 123,
         "active": true,
         "title": "Plancha De Ropa A Vapor Roja Brentwood",
-        "front": "/images/otros/0123-1.png",
+        "front": "/images/planchas de ropa/0123-1.png",
         "imgs": [],
-        "tags": ["linea blanca", "otros"],
+        "tags": ["linea blanca", "planchas de ropa"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-744314819-plancha-de-ropa-a-vapor-roja-brentwood-_JM",
         "price": 20,
         "description": "Recubrimiento antiadherente Control de calor ajustable Ajustes de secado, vapor y rociado Vapor vertical para cortinas, cortinajes y ropa de cama Fácil de llenar Compartimiento de agua transparente Indicador de luz de encendido.",
@@ -2357,11 +2353,11 @@
         "code": 124,
         "active": true,
         "title": "Plancha De Ropa A Vapor Oster",
-        "front": "/images/otros/0124-1.png",
+        "front": "/images/planchas de ropa/0124-1.png",
         "imgs": [],
-        "tags": ["linea blanca", "otros"],
+        "tags": ["linea blanca", "planchas de ropa"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-730265763-plancha-de-ropa-a-vapor-oster-_JM",
-        "price": 28,
+        "price": 20,
         "description": "Este modelo de planchas, por su tamaño, ofrece una solución innovadora que ayuda a reducir el esfuerzo que se realiza al planchar y obtener un terminado perfecto. Es una plancha compacta con suela antiadherente y fácil de almacenar que te encantará. Su vapor continuo y la posibilidad de seleccionar el tipo de tela a planchar, te ofrece la mejor protección para todo tipo de prendas. Además, los modelos de esta serie ofrecen un 20% más cobertura de vapor, lo que facilita remover mejor las arrugas profundas con menor esfuerzo. Tamaño eficiente y compacto para un mejor manejo de planchado y fácil almacenamiento Te brinda un 20% mayor cobertura al planchar* (*vs GCSTBS3800 de Oster®) Suela antiadherente, para un mejor deslizamiento sobre la tela Botón de rociado fino para combatir arrugas difíciles Luz de encendido Tecnología Anti calcificación Control de temperatura que te permite ajustar el calor según el tipo de tejido: seda, sintético, lana, algodón, etc. Cable giratorio/ Cordón que gira 360° grados, para evitar enredos al planchar.",
         "features": {
             "Fabricante": ["Fabricante", "OSTER"],
@@ -2369,7 +2365,7 @@
             "Voltaje": ["Voltaje", "120V"],
             "Color": ["Color", "Bronce"]
         },
-        "promPrice": 25
+        "promPrice": 17
     },
     {
         "_id": {
@@ -2378,11 +2374,11 @@
         "code": 126,
         "active": true,
         "title": "Plancha A Vapor Azul Oster",
-        "front": "/images/otros/0126-1.png",
+        "front": "/images/planchas de ropa/0126-1.png",
         "imgs": [],
-        "tags": ["linea blanca", "otros"],
+        "tags": ["linea blanca", "planchas de ropa"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-730238983-plancha-de-ropa-a-vapor-oster-_JM",
-        "price": 28,
+        "price": 25,
         "description": "Una plancha compacta con suela antiadherente y fácil de almacenar que te encantará,sobre todo si eres de las personas que plancha una o dos veces por semana y valoras guardarla en espacios pequeños. Su vapor continuo y la posibilidad de seleccionar el tipo de tela a planchar, te ofrece la mejor protección para todo tipo de prendas. Además, los modelos de esta serie ofrecen un 20% más cobertura de vapor, lo que facilita remover mejor las arrugas profundas con menor esfuerzo.",
         "features": {
             "Fabricante": ["Fabricante", "OSTER"],
@@ -2390,7 +2386,7 @@
             "Voltaje": ["Voltaje", "120V"],
             "Color": ["Color", "Lavanda"]
         },
-        "promPrice": 25
+        "promPrice": 22
     },
     {
         "_id": {
@@ -2416,5 +2412,388 @@
             "Color": ["Color", "Negro"]
         },
         "promPrice": 23
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322691"
+        },
+        "code": 128,
+        "active": true,
+        "title": "Mini Picatodo 1.5 Tazas KALORIK",
+        "front": "/images/otros/0128-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-762881394-mini-picatodo-15-tazas-_JM",
+        "price": 17,
+        "description": "Pica, muele y mezcla diferentes alimentos e ingredientes, permitiéndote preparar una gran variedad de recetas en tan solo segundos. Su potente motor y diseño compacto lo convierten en el aliado perfecto de tu cocina.",
+        "features": {
+            "Fabricante": ["Fabricante", "KALORIK"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "150w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 15
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322692"
+        },
+        "code": 129,
+        "active": true,
+        "title": "Maquina De Minidonas ROYAL PRESTIGE  (DASH)",
+        "front": "/images/planchas/0129-1.png",
+        "imgs": ["/images/planchas/0129-2.png"],
+        "tags": ["linea blanca", "planchas"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-748460010-maquina-de-minidonas-_JM",
+        "price": 50,
+        "description": "Donas en cuestión de minutos: haz mini donas lindas y sabrosas en casa en poco tiempo, perfectas para aperitivos, entretenimiento y niños llenos, esmerilados, esmaltados, decorados, chispas y más, las posibilidades son infinitas",
+        "features": {
+            "Fabricante": ["Fabricante", "ROYAL PRESTIGE (DASH)"],
+            "Modelo": ["Modelo", "WP-DM12-1"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "700w"],
+            "Color": ["Color", "Cian"]
+        },
+        "promPrice": 45
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322693"
+        },
+        "code": 130,
+        "active": true,
+        "title": "SANDUCHERA 2 PANES Brentwood",
+        "front": "/images/sanducheras/0130-1.png",
+        "imgs": ["/images/sanducheras/0130-2.png"],
+        "tags": ["linea blanca", "sanducheras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-748460010-maquina-de-minidonas-_JM",
+        "price": 25,
+        "description": "Plancha Tostadora Brentwood Tipo Sandwichera Acero Inoxidable",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "TS-240B"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "750w"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 20
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322694"
+        },
+        "code": 131,
+        "active": true,
+        "title": "Extractor De Jugo 400 Watts Lucznik",
+        "front": "/images/extractores/0131-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "extractores"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-761279350-extractor-de-jugo-400-watts-lucznik-_JM",
+        "price": 50,
+        "description": "Hay algo mejor que un vaso de refrescante zumo de naranja recién exprimido a primera hora de la mañana? El exprimidor JC-2019 le permitirá preparar jugos deliciosos y saludables de frutas y verduras frescas para toda la familia, todos los días. Diviértete y crea sabores inusuales combinando diferentes tipos de verduras y frutas en tus propias composiciones y nuevas bombas de vitaminas.",
+        "features": {
+            "Fabricante": ["Fabricante", "LUCZNIK"],
+            "Modelo": ["Modelo", "JC 2019"],
+            "Capacidad": ["Capacidad", "500ml"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "400-600w"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 45
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322695"
+        },
+        "code": 132,
+        "active": true,
+        "title": "Maquina De Minidonas 8 Unidades",
+        "front": "/images/otros/0132-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-762897786-maquina-de-minidonas-8-unidades-_JM",
+        "price": 65,
+        "description": "Maquina mini donas",
+        "features": {
+            "Fabricante": ["Fabricante", "OARANA"],
+            "Modelo": ["Modelo", "LV-551"],
+            "Capacidad": ["Capacidad", "8 Donas"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "1400w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 55
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322696"
+        },
+        "code": 133,
+        "active": true,
+        "title": "Cafetera 5 Tazas Roja Black + Decker",
+        "front": "/images/cafeteras/0133-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "cafeteras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-761583208-cafetera-5-tazas-roja-black-decker-_JM",
+        "price": 35,
+        "description": "Cafetera de 5 tazas Black And Decker eléctrica, cable guardable, diseño compacto y elegante, temperatura optima para el café, filtro permanente, placa antiadherente.",
+        "features": {
+            "Fabricante": ["Fabricante", "BLACK+DECKER"],
+            "Modelo": ["Modelo", "CM0701R"],
+            "Capacidad": ["Capacidad", "5 Tazas"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "650w"],
+            "Color": ["Color", "Rojo"]
+        },
+        "promPrice": 30
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322697"
+        },
+        "code": 134,
+        "active": true,
+        "title": "Molino De Cafe 15 Tazas Hamilton Beach",
+        "front": "/images/cafeteras/0134-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "cafeteras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-761596572-molino-de-cafe-15-tazas-hamilton-beach-_JM",
+        "price": 60,
+        "description": "Muele uniformemente el café para una excelente extracción y sabor, 18 ajustes de molienda de grueso a fino, el selector de 2 a 14 tazas te permite moler la cantidad exacta de café que necesitas, elimina las rebabas superiores para facilitar la limpieza; cepillo incluido, pulido manos libres con apagado automático, recipientes y tapas de café aptos para lavavajillas, tolva de granos grande y extraíble con tapa -Incluye cepillo de limpieza, recipiente de café con tapa para moler sin problemas, fresa superior extraíble fácil de limpiar, contenedor de café molido y tolva de granos, carcasa de acero inoxidable, envoltura de cable",
+        "features": {
+            "Fabricante": ["Fabricante", "HAMILTON BEACH"],
+            "Modelo": ["Modelo", "80385"],
+            "Capacidad": ["Capacidad", "15 Tazas"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "200w"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 55
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322698"
+        },
+        "code": 135,
+        "active": true,
+        "title": "Hervidor Electrico Negro Oster",
+        "front": "/images/cafeteras/0135-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "cafeteras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-761871142-hervidor-electrico-negro-oster-_JM",
+        "price": 30,
+        "description": "El Hervidor eléctrico Oster® hace que preparar y servir bebidas calientes sea simple y práctico. Siente la tranquilidad de hervir agua sin estar pendiente, gracias a su sistema de protección con apagado automático que impide que hierva el agua hasta secarse.",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "BVSTKT3101"],
+            "Capacidad": ["Capacidad", "1.7Lt"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 25
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec8322699"
+        },
+        "code": 136,
+        "active": true,
+        "title": "Cotufera De Aire Jumbo Brentwood",
+        "front": "/images/otros/0136-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-761881542-cotufera-de-aire-jumbo-brentwood-_JM",
+        "price": 45,
+        "description": "¡La máquina para hacer palomitas de maíz con aire caliente Brentwood PC-490R Jumbo de 24 tazas hace estallar suficientes palomitas de maíz para toda la familia! Pop 8 tazas en 3 minutos. Cuenta con palomitas de maíz saludables y sin aceite, un recipiente para servir extraíble integrado y piezas desmontables para facilitar la limpieza. Incluye varias recetas. Agregue una estética clásica a su cocina con nuestra máquina para hacer palomitas de maíz roja.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "PC-490R"],
+            "Capacidad": ["Capacidad", "8 tazas de palomitas"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "1200w"],
+            "Color": ["Color", "Rojo"]
+        },
+        "promPrice": 25
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269a"
+        },
+        "code": 137,
+        "active": true,
+        "title": "Maquina De Waffle Corazón",
+        "front": "/images/otros/0137-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-756378856-maquina-de-waffle-corazon-_JM",
+        "price": 25,
+        "description": "Mini waffle listos en minutos envoltura de cable conveniente protección contra sobrecalentamiento almacenamiento compacto vertical luces indicadoras de precalentamiento y potencia superficie antiadherente solo para uso domestico",
+        "features": {
+            "Fabricante": ["Fabricante", "DASH"],
+            "Modelo": ["Modelo", "DMW001HR"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "350w"],
+            "Color": ["Color", "Rojo"]
+        },
+        "promPrice": 23
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269b"
+        },
+        "code": 138,
+        "active": true,
+        "title": "Maquina De Mini Waffles",
+        "front": "/images/otros/0138-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-757537026-freidora-de-aire-35-litros-brentwood-_JM",
+        "price": 70,
+        "description": "Saludable, usa poco o nada de aceite, capacidad de 3.5 litros, cocción rápida y uniforme, temporizador de 30 minutos, temperatura ajustable de 175 a 400 °F, superficie antiadherente fácil de limpiar, sartén y canasta removibles, práctico cable retráctil, temperatura rápida.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "AF-350BK"],
+            "Capacidad": ["Capacidad", "3,5Lt"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "1400w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 60
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269c"
+        },
+        "code": 139,
+        "active": true,
+        "title": "Microondas 20 Litros Negro Oster",
+        "front": "/images/otros/0139-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-759952312-microondas-20-litros-negro-oster-_JM",
+        "price": 90,
+        "description": "20 litros, reloj digital, seguro de niños, plato giratorio de vidrio templado, apertura de puerta con botón.",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "OGGE3702"],
+            "Capacidad": ["Capacidad", "20 L"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "700w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 80
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269d"
+        },
+        "code": 140,
+        "active": true,
+        "title": "Licuadora 4 Velocidades + Pulso Sujoya",
+        "front": "/images/licuadoras/0140-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "licuadoras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-759381880-licuadora-4-velocidades-pulso-sujoya-_JM",
+        "price": 23,
+        "description": "¡Potencia y versatilidad en un solo aparato! Presentamos nuestra licuadora de alta gama, diseñada para llevar tus habilidades culinarias al siguiente nivel. Con un motor de última generación que ofrece una potencia impresionante, esta licuadora es tu compañera ideal en la cocina para crear una variedad infinita de deliciosos platos y bebidas.",
+        "features": {
+            "Fabricante": ["Fabricante", "SUJOYA"],
+            "Modelo": ["Modelo", "CSY-001"],
+            "Capacidad": ["Capacidad", "1,5 L"],
+            "Voltaje": ["Voltaje", "120V"],
+            "Potencia": ["Potencia", "350w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 20
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269e"
+        },
+        "code": 141,
+        "active": true,
+        "title": "Tosty Empanadas",
+        "front": "/images/otros/0141-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-744210247-tosty-de-empanadas-sujoya-_JM",
+        "price": 18,
+        "description": "Descubre la manera más deliciosa y conveniente de disfrutar tus empanadas favoritas con nuestro innovador Tosty Empanadas. Con su diseño especialmente creado para brindar resultados crujientes y dorados en cada bocado, este tostador es el compañero perfecto para los amantes de las empanadas. Olvídate de los métodos tradicionales de cocción que pueden dejar tus empanadas aceitosas o mal cocidas. Nuestro Tosty Empanadas garantiza una cocción uniforme y rápida, resaltando los sabores y texturas de tus rellenos preferidos. Además, su tamaño compacto y diseño moderno hacen que sea ideal para cualquier cocina. Ya sea que estés preparando empanadas caseras o recalentando las compradas, el Tosty Empanadas te brindará resultados perfectos una y otra vez. Disfruta de empanadas crujientes y doradas en minutos. ¡Haz que cada bocado cuente con el Tosty Empanadas!",
+        "features": {
+            "Fabricante": ["Fabricante", "SUJOYA"],
+            "Modelo": ["Modelo", "WT-80"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "1400w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 15
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec832269f"
+        },
+        "code": 142,
+        "active": true,
+        "title": "Licuadora Con Motor Reversible Y Panel Tactil Oster",
+        "front": "/images/licuadoras/0142-1.png",
+        "imgs": ["/images/licuadoras/0142-2.png"],
+        "tags": ["linea blanca", "licuadoras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-744210247-tosty-de-empanadas-sujoya-_JM",
+        "price": 155,
+        "description": "La nueva Licuadora Oster® con Motor de Tecnología Reversible y pantalla táctil que posee una moderna pantalla con controles de tecnología táctil con dos programas automáticos para smoothies y salsas. La pantalla táctil es práctica con seis aspas de acero inoxidable. Su potente motor de 700 watts hace girar las cuchillas en ambas direcciones para procesar completamente todos los ingredientes. Cuenta con una pantalla de controles con tecnología táctil con dos programas automáticos para smoothies y salsas. También incluye tres velocidades manuales y una función de “Pulso”. Incluye un vaso Blend-N-Go portátil de 750 ml de Tritan™ que brinda todos los beneficios de un vaso de vidrio en un material resistente, inodoro y no tóxico.",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "BLSTPYG1312XBG"],
+            "Capacidad": ["Capacidad", "1.75 L"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "700w"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 140
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec83226a0"
+        },
+        "code": 143,
+        "active": true,
+        "title": "Batidora De Mano 5 Velocidades Brentwood",
+        "front": "/images/batidoras/0143-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "batidoras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-562445220-batidora-de-mano-5-velocidades-brentwood-_JM",
+        "price": 20,
+        "description": "Batidora de mano 5 velocidades brentwood, ideal para merengues y masas ligeras, 5 velocidades motor de 150 watts, peso ligero y diseño, ergonomico boton de expulsion de aspas para facilitar limpieza, aspas resistentes y seguras para el lavavajillas.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "HM-48W"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "150w"],
+            "Color": ["Color", "Blanco"]
+        },
+        "promPrice": 18
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ec83226a1"
+        },
+        "code": 144,
+        "active": true,
+        "title": "Licuadora Profesional Oster Negra",
+        "front": "/images/licuadoras/0144-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "licuadoras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-720417638-licuadora-profesional-oster-negra-_JM",
+        "price": 125,
+        "description": "Las icónicas licuadoras Oster® son sinónimo de eficiencia y durabilidad. Y ahora, el nuevo diseño moderno de la espectacular licuadora clásica Oster® serie profesional reinventada y modernizada con interruptor de palanca, te brinda una mejor experiencia gracias a su motor seis veces más duradero, su novedoso diseño y sus controles ergonómicos. ¡Y estas son tan solo algunas de sus muchas otras ventajas!",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "BLSTBPST"],
+            "Capacidad": ["Capacidad", "1.5 L"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Potencia": ["Potencia", "700w"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 110
     }
 ]
