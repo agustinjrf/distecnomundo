@@ -4,7 +4,7 @@
             "$oid": "64c1eec9fd77fc967d97a7c9"
         },
         "code": 3,
-        "active": true,
+        "active": false,
         "title": "Aire de ventana - 12000 BTU Omega",
         "front": "/images/aires/0003-1.png",
         "imgs": ["/images/aires/0003-2.png", "/images/aires/0003-3.png"],
@@ -28,7 +28,7 @@
             "$oid": "64c1efc8fd77fc967d97a7cb"
         },
         "code": 4,
-        "active": true,
+        "active": false,
         "title": "Aire Acondicionado Split - 12000 BTU Omega",
         "front": "/images/aires/0004-1.png",
         "imgs": ["/images/aires/0004-2.png", "/images/aires/0004-3.png"],
@@ -290,7 +290,7 @@
             "$oid": "64c1f202fd77fc967d97a7db"
         },
         "code": 17,
-        "active": true,
+        "active": false,
         "title": "Freidora de aire manual Oster - 4 litros",
         "front": "/images/airfryers/0017-1.png",
         "imgs": [
@@ -626,7 +626,7 @@
         "active": true,
         "title": "Licuadora De 8 Velocidades Vaso De Vidrio Omega",
         "front": "/images/licuadoras/0031-1.png",
-        "imgs": [],
+        "imgs": ["/images/licuadoras/0031-2.png"],
         "tags": ["linea blanca", "licuadoras"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-732294681-licuadora-de-8-velocidades-vaso-de-vidrio-omega-_JM",
         "price": 40,
@@ -761,7 +761,7 @@
             "$oid": "64c1f202fd77fc967d97a7ee"
         },
         "code": 39,
-        "active": true,
+        "active": false,
         "title": "Tope Electrico De 30 Cm Vitrocerámica Aranci",
         "front": "/images/topes/0039-1.png",
         "imgs": [],
@@ -1033,7 +1033,8 @@
             "Voltaje": ["Voltaje", "110V"],
             "Modelo": ["Modelo", "BVSTEM5501B"],
             "Color": ["Color", "Negro"]
-        }
+        },
+        "promPrice": 145
     },
     {
         "_id": {
@@ -1063,7 +1064,7 @@
             "$oid": "64c1f202fd77fc967d97a7fb"
         },
         "code": 56,
-        "active": true,
+        "active": false,
         "title": "Molino De Café Y Especias Negro Hamilton Beach",
         "front": "/images/cafeteras/0056-1.png",
         "imgs": [
@@ -1191,7 +1192,7 @@
             "$oid": "64c1f202fd77fc967d97a801"
         },
         "code": 63,
-        "active": true,
+        "active": false,
         "title": "Ventilador De Pedestal Negro Omega",
         "front": "/images/otros/0063-1.png",
         "imgs": [],
@@ -1236,7 +1237,7 @@
             "$oid": "64c1f202fd77fc967d97a803"
         },
         "code": 66,
-        "active": true,
+        "active": false,
         "title": "Extractor De Jugos Oster",
         "front": "/images/extractores/0066-1.png",
         "imgs": ["/images/extractores/0066-2.png"],
@@ -1258,7 +1259,7 @@
             "$oid": "64c1f202fd77fc967d97a804"
         },
         "code": 67,
-        "active": true,
+        "active": false,
         "title": "Extractor De Jugo 400 Watts Premium",
         "front": "/images/extractores/0067-1.png",
         "imgs": ["/images/extractores/0067-2.png"],
@@ -1331,7 +1332,7 @@
             "$oid": "64c1f202fd77fc967d97a807"
         },
         "code": 70,
-        "active": true,
+        "active": false,
         "title": "Extractor De Jugo 1000 Watts Brentwood",
         "front": "/images/extractores/0070-1.png",
         "imgs": ["/images/extractores/0070-2.png"],
@@ -1622,7 +1623,7 @@
             "$oid": "64c1f202fd77fc967d97a814"
         },
         "code": 86,
-        "active": true,
+        "active": false,
         "title": "Batidora De Inmersión Con Picatodo Hamilton Beach",
         "front": "/images/batidoras/0086-1.png",
         "imgs": [
@@ -1765,9 +1766,9 @@
         "code": 94,
         "active": true,
         "title": "Plancha Eléctrica Con Bandeja 0ster",
-        "front": "/images/planchas/0094-1.png",
-        "imgs": ["/images/planchas/0094-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0094-1.png",
+        "imgs": ["/images/planchas de cocina/0094-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-720866640-plancha-electrica-con-bandeja-0ster-_JM",
         "price": 88,
         "description": "Esta versátil plancha eléctrica cuenta con antiadherente diamond force de oster, una duradera superficie de cocción con partículas de diamante que crea un revestimiento más resistente para facilitar el desprendimiento de los alimentos y un rendimiento antiadherente superior a lo largo del tiempo, se mantiene caliente y es resistente a rayones.",
@@ -1810,9 +1811,9 @@
         "code": 96,
         "active": true,
         "title": "Plancha Sandwichera Oster",
-        "front": "/images/planchas/0096-1.png",
-        "imgs": ["/images/planchas/0096-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0096-1.png",
+        "imgs": ["/images/planchas de cocina/0096-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-718051160-plancha-sandwichera-oster-_JM",
         "price": 110,
         "description": "Exterior estilo contemporáneo en acero inoxidable resistente con luces indicadoras que facilitan su supervisión. Almacenamiento vertical para ahorrar espacio y cierre de seguridad. Práctica área para enrollar el cable y mantener organizada su cocina. Sistema de altura ajustable que se adapta a diversos tipos de panes. Almacenamiento vertical y área para enrollar el cable. Planchas antiadherentes que facilitan la limpieza.",
@@ -1853,9 +1854,9 @@
         "code": 98,
         "active": true,
         "title": "Sarten Electrico Oster",
-        "front": "/images/planchas/0098-1.png",
-        "imgs": ["/images/planchas/0098-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0098-1.png",
+        "imgs": ["/images/planchas de cocina/0098-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-566222353-sarten-electrico-oster-_JM",
         "price": 58,
         "description": "SARTEN ELÉCTRICO OSTER ® permite preparar una amplia variedad de alimentos saludables y recetas variadas. Cocción más rápida y uniforme Interior anti adherente que no necesita aceite para la preparación de los alimentos, y facilita la limpieza del producto Tapa de cristal templado y transparente con borde de acero inoxidable, tiene una mayor durabilidad y permite visualizar la preparación de los alimentos Termostato desmontable con selector de temperatura con diferentes posiciones Tapa con orificio para la salida de vapor.",
@@ -1874,9 +1875,9 @@
         "code": 99,
         "active": true,
         "title": "Tosty Arepas De 6 Porciones Oster",
-        "front": "/images/planchas/0099-1.png",
-        "imgs": ["/images/planchas/0099-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0099-1.png",
+        "imgs": ["/images/planchas de cocina/0099-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-569623093-tosty-arepas-de-6-porciones-oster-_JM",
         "price": 60,
         "description": "Listo en 7 minutos recubrimiento antiadherente: para cocinar y limpiar fácilmente 6 porciones cocina un 30% mas rápido: que los métodos de cocción tradicionales cierre de seguridad: mantiene cerrada la unidad mientras cocina diseño compacto: para ahorrar espacio medidas del producto: 29 cm de ancho x 34 cm de prof x 11 cm de alto medidas de la caja: 31,5 cm de ancho x 15,5 cm de prof x 38 cm de alto.",
@@ -1895,9 +1896,9 @@
         "code": 100,
         "active": true,
         "title": "Tosty Arepa Brentwood",
-        "front": "/images/planchas/0100-1.png",
-        "imgs": ["/images/planchas/0100-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0100-1.png",
+        "imgs": ["/images/planchas de cocina/0100-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-743559409-tosty-arepa-brentwood-_JM",
         "price": 48,
         "description": "6 arepas redondas y tostadas Calor ajustable para arepas suaves o crujientes Recubrimiento antiadherente Cubierta exterior de plástico fría al tacto Luz indicadora de encendido y precalentamiento Almacenamiento vertical compacto Potencia: 1200w Código de aprobación: cETL Cocine mini panqueques, pan de maíz, galletas, huevos y más.",
@@ -1917,9 +1918,12 @@
         "code": 101,
         "active": true,
         "title": "Arrocera Multiusos Oster 10 Tazas",
-        "front": "/images/planchas/0101-1.png",
-        "imgs": ["/images/planchas/0101-2.png", "/images/planchas/0101-3.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0101-1.png",
+        "imgs": [
+            "/images/planchas de cocina/0101-2.png",
+            "/images/planchas de cocina/0101-3.png"
+        ],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-737957838-arrocera-multiusos-oster-10-tazas-_JM",
         "price": 55,
         "description": "Cocina arroz y todo lo que puedas imaginar de la manera más fácil, rápida y rendidora, ya que tiene una capacidad de 1,8 litros. ¿No quieres comer arroz hoy? Puedes volverte creativa a la hora de crear preparaciones saludables gracias a su bandeja para cocer al vapor. Usa la función automática para mantener tus comidas perfectas hasta la hora de servirlas. Además podrás limpiarla fácilmente gracias a su tazón interno removible de aluminio con recubrimiento antiadherente.",
@@ -1961,9 +1965,9 @@
         "code": 103,
         "active": true,
         "title": "Wafflera Brentwood",
-        "front": "/images/planchas/0103-1.png",
-        "imgs": ["/images/planchas/0103-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0103-1.png",
+        "imgs": ["/images/planchas de cocina/0103-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739640414-wafflera-brentwood-_JM",
         "price": 28,
         "description": "La potente wafflera doble antiadherente Brentwood TS-243 de 750 vatios cocina dos waffles perfectos en 6 a 10 minutos. Los gofres se deslizan directamente de las placas antiadherentes fáciles de limpiar. Prácticas luces indicadoras de encendido/calentamiento. Se almacena en posición vertical para un almacenamiento compacto. Cuenta con apagado de seguridad contra sobrecalentamiento.",
@@ -1983,9 +1987,9 @@
         "code": 104,
         "active": true,
         "title": "Maquina Para Hacer Mini Cupcakes",
-        "front": "/images/planchas/0104-1.png",
-        "imgs": ["/images/planchas/0104-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0104-1.png",
+        "imgs": ["/images/planchas de cocina/0104-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739613360-maquina-para-hacer-mini-cupcakes-_JM",
         "price": 35,
         "description": "La potente wafflera doble antiadherente Brentwood TS-243 de 750 vatios cocina dos waffles perfectos en 6 a 10 minutos. Los gofres se deslizan directamente de las placas antiadherentes fáciles de limpiar. Prácticas luces indicadoras de encendido/calentamiento. Se almacena en posición vertical para un almacenamiento compacto. Cuenta con apagado de seguridad contra sobrecalentamiento.",
@@ -2004,9 +2008,9 @@
         "code": 105,
         "active": true,
         "title": "Maquina Para Hacer Waffles De Animales",
-        "front": "/images/planchas/0105-1.png",
-        "imgs": ["/images/planchas/0105-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0105-1.png",
+        "imgs": ["/images/planchas de cocina/0105-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739686764-maquina-para-hacer-waffles-de-animales-_JM",
         "price": 35,
         "description": "La poderosa máquina para hacer waffles con forma de animal antiadherente Brentwood TS-253 de 1000 vatios hornea 3 mini waffles de animales perfectos en solo minutos. Los gofres se deslizan directamente de las placas antiadherentes fáciles de limpiar. Prácticas luces indicadoras de encendido/calentamiento. Se almacena en posición vertical para un almacenamiento compacto. Cuenta con apagado de seguridad contra sobrecalentamiento.",
@@ -2024,11 +2028,11 @@
             "$oid": "64c1f202fd77fc967d97a826"
         },
         "code": 106,
-        "active": true,
+        "active": false,
         "title": "Maquina Para Hacer Cake Pop",
-        "front": "/images/planchas/0106-1.png",
-        "imgs": ["/images/planchas/0106-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0106-1.png",
+        "imgs": ["/images/planchas de cocina/0106-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739675210-maquina-para-hacer-cake-pop-_JM",
         "price": 35,
         "description": "La potente máquina para hacer cake pops antiadherente Brentwood TS-254 de 1000 vatios hornea 12 cake pops perfectos en solo 4 minutos. Cake pops se deslizan directamente fuera de las placas antiadherentes fáciles de limpiar. Prácticas luces indicadoras de encendido/calentamiento. Se almacena en posición vertical para un almacenamiento compacto. Cuenta con apagado de seguridad contra sobrecalentamiento.",
@@ -2047,9 +2051,12 @@
         "code": 107,
         "active": true,
         "title": "Olla De Presión Oster 7 Litros",
-        "front": "/images/planchas/0107-1.png",
-        "imgs": ["/images/planchas/0107-2.png", "/images/planchas/0107-3.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0107-1.png",
+        "imgs": [
+            "/images/planchas de cocina/0107-2.png",
+            "/images/planchas de cocina/0107-3.png"
+        ],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-737932111-olla-de-presion-oster-7-litros-_JM",
         "price": 80,
         "description": "La Olla de Presión Oster® de 7 litros, cuenta con 5 sistemas de seguridad para mayor confiabilidad del consumidor. Su fabricación es de aluminio durable y ligero para una cocción eficiente. Incluye una tapa hermética con sello grueso y reforzado! Disfruta mientras cocinas con seguridad en nuestra olla de presión! Capacidad de 7 litros Agarradera doble para un manejo más cómodo y seguro Sistema 2 en 1 permite liberar presión mediante la salida de vapor y cierre interno de seguridad Válvula que controla la presión liberándola automáticamente e indicando la condición de operación Incluye: 2 válvulas de seguridad adicionales Asa auxiliar permite un manejo cómodo y seguro Fabricada en aluminio durable y ligero para una cocción eficiente Incluye una tapa hermética con sello grueso y reforzado.",
@@ -2247,7 +2254,7 @@
             "$oid": "64c1f202fd77fc967d97a831"
         },
         "code": 119,
-        "active": true,
+        "active": false,
         "title": "Up Regulador De Voltaje De 8 Tomas",
         "front": "/images/otros/0119-1.png",
         "imgs": ["/images/otros/0119-2.png"],
@@ -2441,9 +2448,9 @@
         "code": 129,
         "active": true,
         "title": "Maquina De Minidonas ROYAL PRESTIGE  (DASH)",
-        "front": "/images/planchas/0129-1.png",
-        "imgs": ["/images/planchas/0129-2.png"],
-        "tags": ["linea blanca", "planchas"],
+        "front": "/images/planchas de cocina/0129-1.png",
+        "imgs": ["/images/planchas de cocina/0129-2.png"],
+        "tags": ["linea blanca", "planchas de cocina"],
         "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-748460010-maquina-de-minidonas-_JM",
         "price": 50,
         "description": "Donas en cuestión de minutos: haz mini donas lindas y sabrosas en casa en poco tiempo, perfectas para aperitivos, entretenimiento y niños llenos, esmerilados, esmaltados, decorados, chispas y más, las posibilidades son infinitas",
@@ -2506,7 +2513,7 @@
             "$oid": "64d416275875ec0ec8322695"
         },
         "code": 132,
-        "active": true,
+        "active": false,
         "title": "Maquina De Minidonas 8 Unidades",
         "front": "/images/otros/0132-1.png",
         "imgs": [],
@@ -2795,5 +2802,107 @@
             "Color": ["Color", "Negro"]
         },
         "promPrice": 110
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ac83226a1"
+        },
+        "code": 145,
+        "active": true,
+        "title": "Cotufera Brentwood",
+        "front": "/images/otros/0145-1.png",
+        "imgs": ["/images/otros/0145-2.png"],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739761678-cotufera-brentwood-_JM",
+        "price": 35,
+        "description": "La máquina para hacer palomitas de maíz con aire caliente Brentwood PC-486R de 8 tazas hace estallar hasta 8 tazas de palomitas de maíz saludables y sin aceite en solo 2-3 minutos. Disfrute de ahorros 4 veces mayores usando granos sueltos en lugar de bolsas para microondas. Las palomitas de maíz se colocan directamente en su tazón. Siga las recetas incluidas para crear sus propias palomitas de maíz gourmet. Las piezas extraíbles facilitan la limpieza.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "PC-486"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Color": ["Color", "Rojo / Blanco"]
+        },
+        "promPrice": 28
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0bc83226a1"
+        },
+        "code": 146,
+        "active": true,
+        "title": "Molino De Café Y Especias Brentwood",
+        "front": "/images/cafeteras/0146-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "cafeteras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-580395934-molino-de-cafe-y-especias-brentwood-_JM",
+        "price": 25,
+        "description": "Nuestro molino eléctrico combina eficacia y versatilidad, permitiéndote moler granos de café y una amplia gama de especias con facilidad. Resalta los sabores al instante. Perfecto para tu taza de café o recetas gourmet.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "CG-158B"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 20
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0cc83226a1"
+        },
+        "code": 147,
+        "active": true,
+        "title": "Horno Con Freidora De Aire 25 Lts Oster",
+        "front": "/images/horno tostador/0147-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "horno tostador"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-722747951-horno-con-freidora-de-aire-25-lts-oster-_JM",
+        "price": 170,
+        "description": "Logra resultados como los de un restaurante con el horno de 25L con freidora de aire Oster®. Es fácil de usar, conveniente y no tienes que pasar horas en la cocina. La función de freír con aire te permite crear una variedad de comidas deliciosas y saludables en menos tiempo.",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "TSSTTVLS25-013"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 150
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0dc83226a1"
+        },
+        "code": 148,
+        "active": true,
+        "title": "Extractor De Jugos De Prensa Fria",
+        "front": "/images/extractores/0148-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "extractores"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-752354742-extractor-de-jugos-de-prensa-fria-_JM",
+        "price": 150,
+        "description": "Tecnología de prensa en frío: la extracción de prensa en frío reduce el calor y la exposición al aire para que obtengas el máximo valor nutricional de vitaminas y minerales",
+        "features": {
+            "Fabricante": ["Fabricante", "WEST BEND"],
+            "Modelo": ["Modelo", "JC2009RD13"],
+            "Color": ["Color", "Gris"]
+        },
+        "promPrice": 125
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875fc0dc83226a1"
+        },
+        "code": 149,
+        "active": true,
+        "title": "Campana De Cocina De 90 Cm Axia Tecnolam",
+        "front": "/images/campanas/0149-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "campanas"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-574586700-campana-de-cocina-de-90-cm-axia-tecnolam-_JM",
+        "price": 375,
+        "description": "Nuestra campana extractora redefine la frescura en tu cocina. Con potente filtración y diseño elegante, elimina eficazmente humos y olores, manteniendo el ambiente limpio y cómodo. ¡Cocina sin preocupaciones y con estilo!",
+        "features": {
+            "Fabricante": ["Fabricante", "TECNOLAM"],
+            "Modelo": ["Modelo", "AXIATOUCH.AC90"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 350
     }
 ]

@@ -1,0 +1,104 @@
+[
+    {
+        "_id": {
+            "$oid": "64d416275875ec0ac83226a1"
+        },
+        "code": 145,
+        "active": true,
+        "title": "Cotufera Brentwood",
+        "front": "/images/otros/0145-1.png",
+        "imgs": ["/images/otros/0145-2.png"],
+        "tags": ["linea blanca", "otros"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-739761678-cotufera-brentwood-_JM",
+        "price": 35,
+        "description": "La máquina para hacer palomitas de maíz con aire caliente Brentwood PC-486R de 8 tazas hace estallar hasta 8 tazas de palomitas de maíz saludables y sin aceite en solo 2-3 minutos. Disfrute de ahorros 4 veces mayores usando granos sueltos en lugar de bolsas para microondas. Las palomitas de maíz se colocan directamente en su tazón. Siga las recetas incluidas para crear sus propias palomitas de maíz gourmet. Las piezas extraíbles facilitan la limpieza.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "PC-486"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Color": ["Color", "Rojo / Blanco"]
+        },
+        "promPrice": 28
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0bc83226a1"
+        },
+        "code": 146,
+        "active": true,
+        "title": "Molino De Café Y Especias Brentwood",
+        "front": "/images/cafeteras/0146-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "cafeteras"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-580395934-molino-de-cafe-y-especias-brentwood-_JM",
+        "price": 25,
+        "description": "Nuestro molino eléctrico combina eficacia y versatilidad, permitiéndote moler granos de café y una amplia gama de especias con facilidad. Resalta los sabores al instante. Perfecto para tu taza de café o recetas gourmet.",
+        "features": {
+            "Fabricante": ["Fabricante", "BRENTWOOD"],
+            "Modelo": ["Modelo", "CG-158B"],
+            "Color": ["Color", "Negro"]
+        },
+        "promPrice": 20
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0cc83226a1"
+        },
+        "code": 147,
+        "active": true,
+        "title": "Horno Con Freidora De Aire 25 Lts Oster",
+        "front": "/images/horno tostador/0147-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "horno tostador"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-722747951-horno-con-freidora-de-aire-25-lts-oster-_JM",
+        "price": 170,
+        "description": "Logra resultados como los de un restaurante con el horno de 25L con freidora de aire Oster®. Es fácil de usar, conveniente y no tienes que pasar horas en la cocina. La función de freír con aire te permite crear una variedad de comidas deliciosas y saludables en menos tiempo.",
+        "features": {
+            "Fabricante": ["Fabricante", "OSTER"],
+            "Modelo": ["Modelo", "TSSTTVLS25-013"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 150
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875ec0dc83226a1"
+        },
+        "code": 148,
+        "active": true,
+        "title": "Extractor De Jugos De Prensa Fria",
+        "front": "/images/extractores/0148-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "extractores"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-752354742-extractor-de-jugos-de-prensa-fria-_JM",
+        "price": 150,
+        "description": "Tecnología de prensa en frío: la extracción de prensa en frío reduce el calor y la exposición al aire para que obtengas el máximo valor nutricional de vitaminas y minerales",
+        "features": {
+            "Fabricante": ["Fabricante", "WEST BEND"],
+            "Modelo": ["Modelo", "JC2009RD13"],
+            "Color": ["Color", "Gris"]
+        },
+        "promPrice": 125
+    },
+    {
+        "_id": {
+            "$oid": "64d416275875fc0dc83226a1"
+        },
+        "code": 149,
+        "active": true,
+        "title": "Campana De Cocina De 90 Cm Axia Tecnolam",
+        "front": "/images/campanas/0149-1.png",
+        "imgs": [],
+        "tags": ["linea blanca", "campanas"],
+        "mercadoLibre": "https://articulo.mercadolibre.com.ve/MLV-574586700-campana-de-cocina-de-90-cm-axia-tecnolam-_JM",
+        "price": 375,
+        "description": "Nuestra campana extractora redefine la frescura en tu cocina. Con potente filtración y diseño elegante, elimina eficazmente humos y olores, manteniendo el ambiente limpio y cómodo. ¡Cocina sin preocupaciones y con estilo!",
+        "features": {
+            "Fabricante": ["Fabricante", "TECNOLAM"],
+            "Modelo": ["Modelo", "AXIATOUCH.AC90"],
+            "Voltaje": ["Voltaje", "110V"],
+            "Color": ["Color", "Acero"]
+        },
+        "promPrice": 350
+    }
+]
