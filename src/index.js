@@ -3,7 +3,17 @@ require('dotenv').config();
 
 // Requiriendo servidor y base de datos
 const app = require('./server');
-require('./database');
+const mongoose = require('mongoose');
+
+async function connectDB() {
+    try {
+        await mongoose.connect(process.env.DISTECNOMUNDO_MONGODB_URI);
+        console.log('>>> Data base is connected');
+    } catch (error) {
+        console.log(error);
+    }
+}
+connectDB();
 
 app.listen(app.get('port'), () => {
     console.log('Server on port ' + app.get('port'));

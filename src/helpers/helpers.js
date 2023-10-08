@@ -1,12 +1,13 @@
 const helpers = {};
-
-const products = require('../handlers/Distecnomundo.Products.json');
+const Task = require('../models/Product');
 
 helpers.validateForm = (req, res, next) => {
     // *VALIDANDO DATOS DEL FORMULARIO
 };
 
-helpers.validateProduct = (req, res, next) => {
+helpers.validateProduct = async (req, res, next) => {
+    const products = await Task.find().lean();
+
     let thereisnot = true;
 
     // *VALIDANDO LA EXISTENCIA DEL PRODUCTO

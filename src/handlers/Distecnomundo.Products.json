@@ -2904,5 +2904,24 @@
             "Color": ["Color", "Acero"]
         },
         "promPrice": 350
+    },
+    {
+        "_id": {
+            "$oid": "652204e6b15cf7bc83eaed4e"
+        },
+        "code": 170,
+        "active": false,
+        "title": "gfhgfhg",
+        "front": "trytry",
+        "imgs": ["trytry", "sdfsdfsdf"],
+        "tags": ["fhfghfgh", "sdfsdfsdf", "sdfsdf"],
+        "mercadoLibre": "fghfgh",
+        "price": 654654,
+        "description": "tytry",
+        "features": {
+            "df": ["df", "dfdf"]
+        },
+        "promPrice": 56546,
+        "__v": 0
     }
 ]

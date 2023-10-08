@@ -2,8 +2,8 @@ const { Schema, model } = require('mongoose');
 
 const OrderSchema = new Schema(
     {
-        order: { type: {}, required: true },
-        user: { type: String, required: true },
+        order: { type: Object, required: true },
+        cart: { type: Array, required: true },
     },
     {
         timestamps: true,
