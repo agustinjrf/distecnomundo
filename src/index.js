@@ -7,7 +7,10 @@ const mongoose = require('mongoose');
 
 async function connectDB() {
     try {
-        await mongoose.connect(process.env.DISTECNOMUNDO_MONGODB_URI);
+        await mongoose.connect(process.env.DISTECNOMUNDO_MONGODB_URI, {
+            useUnifiedTopology: true,
+            useNewUrlParser: true,
+        });
         console.log('>>> Data base is connected');
     } catch (error) {
         console.log(error);
