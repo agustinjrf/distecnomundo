@@ -64,7 +64,8 @@ handlers.sendOrder = async (req, res) => {
             envioDireccion,
             envioCodigo,
             metodoEnvio,
-            metodoPago,
+            metodoPago:
+                typeof metodoPago == 'string' ? [metodoPago] : metodoPago,
         },
         cart: req.cookies.cart,
     });
