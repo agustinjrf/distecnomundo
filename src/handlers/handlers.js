@@ -7,19 +7,19 @@ const uuid = require('uuid');
 const igPost = [
     {
         img: './images/ig01.png',
-        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+        url: 'https://www.instagram.com/distecn/?hl=e',
     },
     {
         img: './images/ig02.png',
-        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+        url: 'https://www.instagram.com/distecn/?hl=e',
     },
     {
         img: './images/ig03.png',
-        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+        url: 'https://www.instagram.com/distecn/?hl=e',
     },
     {
         img: './images/ig04.png',
-        url: 'https://www.instagram.com/distecnomundo/?hl=e',
+        url: 'https://www.instagram.com/distecn/?hl=e',
     },
 ];
 
